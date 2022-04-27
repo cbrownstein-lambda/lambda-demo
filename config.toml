@@ -1,5 +1,5 @@
 baseURL = "https://cbrownstein.github.io/lambda-demo"
-title = "Goldydocs"
+title = "Lambda demo"
 
 # Language settings
 contentDir = "content/en"
