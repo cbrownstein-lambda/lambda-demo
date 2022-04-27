@@ -1,4 +1,56 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Goldydocs – Tutorials</title><link>https://cbrownstein.github.io/lambda-demo/docs/tutorials/</link><description>Recent content in Tutorials on Goldydocs</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 04 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cbrownstein.github.io/lambda-demo/docs/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Multi-Bear Domicile Setup</title><link>https://cbrownstein.github.io/lambda-demo/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein.github.io/lambda-demo/docs/tutorials/multi-bear/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Goldydocs – Tutorials</title><link>https://cbrownstein.github.io/lambda-demo/docs/tutorials/</link><description>Recent content in Tutorials on Goldydocs</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 04 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cbrownstein.github.io/lambda-demo/docs/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</title><link>https://cbrownstein.github.io/lambda-demo/docs/tutorials/lambda-stack-docker-container/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein.github.io/lambda-demo/docs/tutorials/lambda-stack-docker-container/</guid><description>
+&lt;ol>
+&lt;li>
+&lt;p>Install &lt;a href="https://lambdalabs.com/lambda-stack-deep-learning-software">Lambda Stack&lt;/a>.
+Lambda Stack installs the NVIDIA drivers needed to run GPU-accelerated
+Docker containers. Lambda Stack also installs deep learning libraries and
+frameworks such as:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.tensorflow.org/">TensorFlow&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://pytorch.org/">PyTorch&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://keras.io/">Keras&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Install the latest version of &lt;a href="https://www.docker.com/">Docker&lt;/a> and
+&lt;a href="https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/overview.html">NVIDIA Container Toolkit&lt;/a>.
+To install the latest version of Docker and NVIDIA Container Toolkit, run
+the following command in a terminal:&lt;/p>
+&lt;p>&lt;code>sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install docker.io nvidia-container-toolkit&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Reboot your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Download the NVIDIA NGC Catalog &lt;a href="https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch">PyTorch Docker image&lt;/a>.
+To download the image, run the following command in a terminal:&lt;/p>
+&lt;p>&lt;code>sudo docker pull nvcr.io/nvidia/pytorch:22.03-py3&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You can create a directory to share with the container that you are
+creating. To do so, run the following command in a terminal:&lt;/p>
+&lt;p>&lt;code>mkdir $data&lt;/code>&lt;/p>
+&lt;p>You can substitute &lt;code>$data&lt;/code> with a directory name of your choice.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create the container by running the following command in a terminal:&lt;/p>
+&lt;p>&lt;code>sudo docker run --gpus all -it --rm nvcr.io/nvidia/pytorch:22.03-py3&lt;/code>&lt;/p>
+&lt;p>If you followed step 5. and created a directory to share with the container
+that you are creating, run the following command instead:&lt;/p>
+&lt;pre tabindex="0">&lt;code>sudo docker run --gpus all -it --rm -v `pwd`/$data:/$data \
+nvcr.io/nvidia/pytorch:22.03-py3
+&lt;/code>&lt;/pre>&lt;p>Substitute &lt;code>$data&lt;/code> with the name of the directory you created in step 5.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>You are now running a GPU-accelerated PyTorch Docker container.&lt;/p>
+&lt;p>If you created a shared directory in step 5., the directory is mounted at
+&lt;code>/$data&lt;/code>. Substitute &lt;code>$data&lt;/code> with the name of the directory that you
+created.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>To exit the container, run the command &lt;code>exit&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol></description></item><item><title>Docs: Multi-Bear Domicile Setup</title><link>https://cbrownstein.github.io/lambda-demo/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein.github.io/lambda-demo/docs/tutorials/multi-bear/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>

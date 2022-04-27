@@ -115,8 +115,9 @@ This is the multi-page printable view of this section.
 </ul>
 <li>6: <a href=#pg-8dbd4e302cd86a4d0f71f71ce3b300de>Tutorials</a></li>
 <ul>
-<li>6.1: <a href=#pg-06285b237e6e217b13f8d9c941a9de18>Multi-Bear Domicile Setup</a></li>
-<li>6.2: <a href=#pg-c86b0cbc9ee1f95a6facb6bff0282978>Another Tutorial</a></li>
+<li>6.1: <a href=#pg-a3dad743390a6745b1cc5a03c926d783>How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</a></li>
+<li>6.2: <a href=#pg-06285b237e6e217b13f8d9c941a9de18>Multi-Bear Domicile Setup</a></li>
+<li>6.3: <a href=#pg-c86b0cbc9ee1f95a6facb6bff0282978>Another Tutorial</a></li>
 </ul>
 <li>7: <a href=#pg-8df6ea6904416b571ff9bc73afb50933>Reference</a></li>
 <ul>
@@ -1861,7 +1862,63 @@ This is a warning with a title.
 <p>Tutorials are <strong>complete worked examples</strong> made up of <strong>multiple tasks</strong> that guide the user through a relatively simple but realistic scenario: building an application that uses some of your project’s features, for example. If you have already created some Examples for your project you can base Tutorials on them. This section is <strong>optional</strong>. However, remember that although you may not need this section at first, having tutorials can be useful to help your users engage with your example code, especially if there are aspects that need more explanation than you can easily provide in code comments.</p>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-06285b237e6e217b13f8d9c941a9de18>6.1 - Multi-Bear Domicile Setup</h1>
+<h1 id=pg-a3dad743390a6745b1cc5a03c926d783>6.1 - How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</h1>
+<div class=lead>This tutorial explains how to use Lambda Stack to create a GPU-accelerated PyTorch Docker container.</div>
+<ol>
+<li>
+<p>Install <a href=https://lambdalabs.com/lambda-stack-deep-learning-software>Lambda Stack</a>.
+Lambda Stack installs the NVIDIA drivers needed to run GPU-accelerated
+Docker containers. Lambda Stack also installs deep learning libraries and
+frameworks such as:</p>
+<ul>
+<li><a href=https://www.tensorflow.org/>TensorFlow</a></li>
+<li><a href=https://pytorch.org/>PyTorch</a></li>
+<li><a href=https://keras.io/>Keras</a></li>
+</ul>
+</li>
+<li>
+<p>Install the latest version of <a href=https://www.docker.com/>Docker</a> and
+<a href=https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/overview.html>NVIDIA Container Toolkit</a>.
+To install the latest version of Docker and NVIDIA Container Toolkit, run
+the following command in a terminal:</p>
+<p><code>sudo apt-get update && sudo apt-get install docker.io nvidia-container-toolkit</code></p>
+</li>
+<li>
+<p>Reboot your computer.</p>
+</li>
+<li>
+<p>Download the NVIDIA NGC Catalog <a href=https://catalog.ngc.nvidia.com/orgs/nvidia/containers/pytorch>PyTorch Docker image</a>.
+To download the image, run the following command in a terminal:</p>
+<p><code>sudo docker pull nvcr.io/nvidia/pytorch:22.03-py3</code></p>
+</li>
+<li>
+<p>You can create a directory to share with the container that you are
+creating. To do so, run the following command in a terminal:</p>
+<p><code>mkdir $data</code></p>
+<p>You can substitute <code>$data</code> with a directory name of your choice.</p>
+</li>
+<li>
+<p>Create the container by running the following command in a terminal:</p>
+<p><code>sudo docker run --gpus all -it --rm nvcr.io/nvidia/pytorch:22.03-py3</code></p>
+<p>If you followed step 5. and created a directory to share with the container
+that you are creating, run the following command instead:</p>
+<pre tabindex=0><code>sudo docker run --gpus all -it --rm -v `pwd`/$data:/$data \
+nvcr.io/nvidia/pytorch:22.03-py3
+</code></pre><p>Substitute <code>$data</code> with the name of the directory you created in step 5.</p>
+</li>
+<li>
+<p>You are now running a GPU-accelerated PyTorch Docker container.</p>
+<p>If you created a shared directory in step 5., the directory is mounted at
+<code>/$data</code>. Substitute <code>$data</code> with the name of the directory that you
+created.</p>
+</li>
+<li>
+<p>To exit the container, run the command <code>exit</code>.</p>
+</li>
+</ol>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-06285b237e6e217b13f8d9c941a9de18>6.2 - Multi-Bear Domicile Setup</h1>
 <div class=lead>A short lead description about this content page. It can be <strong>bold</strong> or <em>italic</em> and can be split over multiple paragraphs.</div>
 <div class="pageinfo pageinfo-primary">
 <p>This is a placeholder page. Replace it with your own content.</p>
@@ -2131,7 +2188,7 @@ This is a warning with a title.
 </code></pre>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-c86b0cbc9ee1f95a6facb6bff0282978>6.2 - Another Tutorial</h1>
+<h1 id=pg-c86b0cbc9ee1f95a6facb6bff0282978>6.3 - Another Tutorial</h1>
 <div class=lead>A short lead description about this content page. It can be <strong>bold</strong> or <em>italic</em> and can be split over multiple paragraphs.</div>
 <div class="pageinfo pageinfo-primary">
 <p>This is a placeholder page. Replace it with your own content.</p>
