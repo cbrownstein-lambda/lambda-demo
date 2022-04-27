@@ -1,5 +1,5 @@
 ---
-title: "Multi-Bear Domicile Setup"
+title: "How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container"
 date: 2017-01-05
 weight: 4
 description: >
