@@ -28,8 +28,8 @@
 <meta itemprop=description content="یک نمونه برای پوسته داکسی"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="بلاگ داکسی">
 <meta name=twitter:description content="یک نمونه برای پوسته داکسی">
-<link rel=preload href=/lambda-demo/scss/main.min.209ee91954d0f2f182770e6c71011a5580360636bcf2a9bcf7f1c3da478784ff.css as=style>
-<link href=/lambda-demo/scss/main.min.209ee91954d0f2f182770e6c71011a5580360636bcf2a9bcf7f1c3da478784ff.css rel=stylesheet integrity>
+<link rel=preload href=/lambda-demo/scss/main.min.154472f2f146ae69531cfe336d5a7c01b280168130a7323911ce721c65cd6faf.css as=style>
+<link href=/lambda-demo/scss/main.min.154472f2f146ae69531cfe336d5a7c01b280168130a7323911ce721c65cd6faf.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-00000000-0','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
@@ -75,7 +75,7 @@
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
-<nav class="collapse td-sidebar-nav" id=td-section-nav>
+<nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav>
 <div class="nav-item dropdown d-block d-lg-none">
 <a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
 فارسی
@@ -89,14 +89,17 @@
 <a href=/lambda-demo/fa/blog/ title="بلاگ داکسی" class="align-left pl-0 active td-sidebar-link td-sidebar-link__section tree-root" id=m-lambda-demofablog><span class=td-sidebar-nav-active-item>بلاگ</span></a>
 <ul class=ul-1>
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demofablognews-li>
-<a href=/lambda-demo/fa/blog/news/ title="اخبار داکسی" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demofablognews><span>اخبار</span></a>
+<input type=checkbox id=m-lambda-demofablognews-check>
+<label for=m-lambda-demofablognews-check><a href=/lambda-demo/fa/blog/news/ title="اخبار داکسی" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demofablognews><span>اخبار</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demofablog20181006d985d8b3d8aad8afd8a7d8aa-d8b1d8a7d8add8aa-d8a8d8a7-d8afd8a7daa9d8b3db8c-li>
-<a href=/lambda-demo/fa/blog/2018/10/06/%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D8%AA-%D8%B1%D8%A7%D8%AD%D8%AA-%D8%A8%D8%A7-%D8%AF%D8%A7%DA%A9%D8%B3%DB%8C/ title="مستدات راحت با داکسی" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demofablog20181006d985d8b3d8aad8afd8a7d8aa-d8b1d8a7d8add8aa-d8a8d8a7-d8afd8a7daa9d8b3db8c><span>معرفی داکسی</span></a>
+<input type=checkbox id=m-lambda-demofablog20181006d985d8b3d8aad8afd8a7d8aa-d8b1d8a7d8add8aa-d8a8d8a7-d8afd8a7daa9d8b3db8c-check>
+<label for=m-lambda-demofablog20181006d985d8b3d8aad8afd8a7d8aa-d8b1d8a7d8add8aa-d8a8d8a7-d8afd8a7daa9d8b3db8c-check><a href=/lambda-demo/fa/blog/2018/10/06/%D9%85%D8%B3%D8%AA%D8%AF%D8%A7%D8%AA-%D8%B1%D8%A7%D8%AD%D8%AA-%D8%A8%D8%A7-%D8%AF%D8%A7%DA%A9%D8%B3%DB%8C/ title="مستدات راحت با داکسی" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demofablog20181006d985d8b3d8aad8afd8a7d8aa-d8b1d8a7d8add8aa-d8a8d8a7-d8afd8a7daa9d8b3db8c><span>معرفی داکسی</span></a></label>
 </li>
 </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demofablogreleases-li>
-<a href=/lambda-demo/fa/blog/releases/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demofablogreleases><span>نسخه های منتشر شده</span></a>
+<input type=checkbox id=m-lambda-demofablogreleases-check>
+<label for=m-lambda-demofablogreleases-check><a href=/lambda-demo/fa/blog/releases/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demofablogreleases><span>نسخه های منتشر شده</span></a></label>
 </li>
 </ul>
 </li>

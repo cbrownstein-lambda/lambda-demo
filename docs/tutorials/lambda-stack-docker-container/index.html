@@ -33,8 +33,8 @@
 <meta name=twitter:title content="How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container">
 <meta name=twitter:description content="This tutorial explains how to use Lambda Stack to create a GPU-accelerated PyTorch Docker container.
 ">
-<link rel=preload href=/lambda-demo/scss/main.min.209ee91954d0f2f182770e6c71011a5580360636bcf2a9bcf7f1c3da478784ff.css as=style>
-<link href=/lambda-demo/scss/main.min.209ee91954d0f2f182770e6c71011a5580360636bcf2a9bcf7f1c3da478784ff.css rel=stylesheet integrity>
+<link rel=preload href=/lambda-demo/scss/main.min.154472f2f146ae69531cfe336d5a7c01b280168130a7323911ce721c65cd6faf.css as=style>
+<link href=/lambda-demo/scss/main.min.154472f2f146ae69531cfe336d5a7c01b280168130a7323911ce721c65cd6faf.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-00000000-0','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
@@ -84,7 +84,7 @@ English
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
-<nav class="collapse td-sidebar-nav" id=td-section-nav>
+<nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav>
 <div class="nav-item dropdown d-block d-lg-none">
 <a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
 English
@@ -99,58 +99,77 @@ English
 <a href=/lambda-demo/docs/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section tree-root" id=m-lambda-demodocs><span>Documentation</span></a>
 <ul class=ul-1>
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocsoverview-li>
-<a href=/lambda-demo/docs/overview/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsoverview><span>Overview</span></a>
+<input type=checkbox id=m-lambda-demodocsoverview-check>
+<label for=m-lambda-demodocsoverview-check><a href=/lambda-demo/docs/overview/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsoverview><span>Overview</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demodocsgetting-started-li>
-<a href=/lambda-demo/docs/getting-started/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsgetting-started><span>Getting Started</span></a>
+<input type=checkbox id=m-lambda-demodocsgetting-started-check>
+<label for=m-lambda-demodocsgetting-started-check><a href=/lambda-demo/docs/getting-started/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsgetting-started><span>Getting Started</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocsgetting-startedexample-page-li>
-<a href=/lambda-demo/docs/getting-started/example-page/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocsgetting-startedexample-page><span>Example Page</span></a>
+<input type=checkbox id=m-lambda-demodocsgetting-startedexample-page-check>
+<label for=m-lambda-demodocsgetting-startedexample-page-check><a href=/lambda-demo/docs/getting-started/example-page/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocsgetting-startedexample-page><span>Example Page</span></a></label>
 </li>
 </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocsexamples-li>
-<a href=/lambda-demo/docs/examples/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsexamples><span>Examples</span></a>
+<input type=checkbox id=m-lambda-demodocsexamples-check>
+<label for=m-lambda-demodocsexamples-check><a href=/lambda-demo/docs/examples/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsexamples><span>Examples</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocsconcepts-li>
-<a href=/lambda-demo/docs/concepts/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsconcepts><span>Concepts</span></a>
+<input type=checkbox id=m-lambda-demodocsconcepts-check>
+<label for=m-lambda-demodocsconcepts-check><a href=/lambda-demo/docs/concepts/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsconcepts><span>Concepts</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demodocstasks-li>
-<a href=/lambda-demo/docs/tasks/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocstasks><span>Core Tasks</span></a>
+<input type=checkbox id=m-lambda-demodocstasks-check>
+<label for=m-lambda-demodocstasks-check><a href=/lambda-demo/docs/tasks/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocstasks><span>Core Tasks</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstasksbeds-li>
-<a href=/lambda-demo/docs/tasks/beds/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksbeds><span>Bed and Chair Metrics</span></a>
+<input type=checkbox id=m-lambda-demodocstasksbeds-check>
+<label for=m-lambda-demodocstasksbeds-check><a href=/lambda-demo/docs/tasks/beds/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksbeds><span>Bed and Chair Metrics</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstasksporridge-li>
-<a href=/lambda-demo/docs/tasks/porridge/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksporridge><span>Porridge Assessment</span></a>
+<input type=checkbox id=m-lambda-demodocstasksporridge-check>
+<label for=m-lambda-demodocstasksporridge-check><a href=/lambda-demo/docs/tasks/porridge/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksporridge><span>Porridge Assessment</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstaskstask-li>
-<a href=/lambda-demo/docs/tasks/task/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstaskstask><span>Another Task</span></a>
+<input type=checkbox id=m-lambda-demodocstaskstask-check>
+<label for=m-lambda-demodocstaskstask-check><a href=/lambda-demo/docs/tasks/task/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstaskstask><span>Another Task</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demodocstasksponycopters-li>
-<a href=/lambda-demo/docs/tasks/ponycopters/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocstasksponycopters><span>Working with Ponycopters</span></a>
+<input type=checkbox id=m-lambda-demodocstasksponycopters-check>
+<label for=m-lambda-demodocstasksponycopters-check><a href=/lambda-demo/docs/tasks/ponycopters/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocstasksponycopters><span>Working with Ponycopters</span></a></label>
 <ul class="ul-3 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstasksponycoptersconfiguring-ponycopters-li>
-<a href=/lambda-demo/docs/tasks/ponycopters/configuring-ponycopters/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksponycoptersconfiguring-ponycopters><span>Configuring Ponycopters</span></a>
+<input type=checkbox id=m-lambda-demodocstasksponycoptersconfiguring-ponycopters-check>
+<label for=m-lambda-demodocstasksponycoptersconfiguring-ponycopters-check><a href=/lambda-demo/docs/tasks/ponycopters/configuring-ponycopters/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksponycoptersconfiguring-ponycopters><span>Configuring Ponycopters</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstasksponycopterslaunching-ponycopters-li>
-<a href=/lambda-demo/docs/tasks/ponycopters/launching-ponycopters/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksponycopterslaunching-ponycopters><span>Launching Ponycopters</span></a>
+<input type=checkbox id=m-lambda-demodocstasksponycopterslaunching-ponycopters-check>
+<label for=m-lambda-demodocstasksponycopterslaunching-ponycopters-check><a href=/lambda-demo/docs/tasks/ponycopters/launching-ponycopters/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstasksponycopterslaunching-ponycopters><span>Launching Ponycopters</span></a></label>
 </li>
 </ul>
 </li>
 </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child active-path" id=m-lambda-demodocstutorials-li>
-<a href=/lambda-demo/docs/tutorials/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocstutorials><span>Tutorials</span></a>
+<input type=checkbox id=m-lambda-demodocstutorials-check checked>
+<label for=m-lambda-demodocstutorials-check><a href=/lambda-demo/docs/tutorials/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocstutorials><span>Tutorials</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child active-path" id=m-lambda-demodocstutorialslambda-stack-docker-container-li>
-<a href=/lambda-demo/docs/tutorials/lambda-stack-docker-container/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstutorialslambda-stack-docker-container><span class=td-sidebar-nav-active-item>How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</span></a>
+<input type=checkbox id=m-lambda-demodocstutorialslambda-stack-docker-container-check checked>
+<label for=m-lambda-demodocstutorialslambda-stack-docker-container-check><a href=/lambda-demo/docs/tutorials/lambda-stack-docker-container/ class="align-left pl-0 active td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstutorialslambda-stack-docker-container><span class=td-sidebar-nav-active-item>How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstutorialsmulti-bear-li>
-<a href=/lambda-demo/docs/tutorials/multi-bear/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstutorialsmulti-bear><span>Multi-Bear Domicile Setup</span></a>
+<input type=checkbox id=m-lambda-demodocstutorialsmulti-bear-check>
+<label for=m-lambda-demodocstutorialsmulti-bear-check><a href=/lambda-demo/docs/tutorials/multi-bear/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstutorialsmulti-bear><span>Multi-Bear Domicile Setup</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocstutorialstutorial2-li>
-<a href=/lambda-demo/docs/tutorials/tutorial2/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstutorialstutorial2><span>Another Tutorial</span></a>
+<input type=checkbox id=m-lambda-demodocstutorialstutorial2-check>
+<label for=m-lambda-demodocstutorialstutorial2-check><a href=/lambda-demo/docs/tutorials/tutorial2/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocstutorialstutorial2><span>Another Tutorial</span></a></label>
 </li>
 </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demodocsreference-li>
-<a href=/lambda-demo/docs/reference/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsreference><span>Reference</span></a>
+<input type=checkbox id=m-lambda-demodocsreference-check>
+<label for=m-lambda-demodocsreference-check><a href=/lambda-demo/docs/reference/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocsreference><span>Reference</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocsreferenceparameter-reference-li>
-<a href=/lambda-demo/docs/reference/parameter-reference/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocsreferenceparameter-reference><span>Parameter Reference</span></a>
+<input type=checkbox id=m-lambda-demodocsreferenceparameter-reference-check>
+<label for=m-lambda-demodocsreferenceparameter-reference-check><a href=/lambda-demo/docs/reference/parameter-reference/ class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demodocsreferenceparameter-reference><span>Parameter Reference</span></a></label>
 </li>
 </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demodocscontribution-guidelines-li>
-<a href=/lambda-demo/docs/contribution-guidelines/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocscontribution-guidelines><span>Contribution Guidelines</span></a>
+<input type=checkbox id=m-lambda-demodocscontribution-guidelines-check>
+<label for=m-lambda-demodocscontribution-guidelines-check><a href=/lambda-demo/docs/contribution-guidelines/ class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demodocscontribution-guidelines><span>Contribution Guidelines</span></a></label>
 </li>
 </ul>
 </li>

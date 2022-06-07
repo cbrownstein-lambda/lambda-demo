@@ -28,8 +28,8 @@ Files in these directories will be listed in reverse chronological order.
 <meta itemprop=description content="Idea for a documentation solution"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Docsy Blog">
 <meta name=twitter:description content="Idea for a documentation solution">
-<link rel=preload href=/lambda-demo/scss/main.min.209ee91954d0f2f182770e6c71011a5580360636bcf2a9bcf7f1c3da478784ff.css as=style>
-<link href=/lambda-demo/scss/main.min.209ee91954d0f2f182770e6c71011a5580360636bcf2a9bcf7f1c3da478784ff.css rel=stylesheet integrity>
+<link rel=preload href=/lambda-demo/scss/main.min.154472f2f146ae69531cfe336d5a7c01b280168130a7323911ce721c65cd6faf.css as=style>
+<link href=/lambda-demo/scss/main.min.154472f2f146ae69531cfe336d5a7c01b280168130a7323911ce721c65cd6faf.css rel=stylesheet integrity>
 <script src=https://code.jquery.com/jquery-3.6.0.min.js integrity=sha384-vtXRMe3mGCbOeY7l30aIg8H9p3GdeSe4IFlP6G8JMa7o7lXvnz3GFKzPxzJdPfGK crossorigin=anonymous></script>
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-00000000-0','auto'),ga('send','pageview'))</script>
 <script async src=https://www.google-analytics.com/analytics.js></script>
@@ -78,7 +78,7 @@ English
 <button class="btn btn-link td-sidebar__toggle d-md-none p-0 ml-3 fas fa-bars" type=button data-toggle=collapse data-target=#td-section-nav aria-controls=td-docs-nav aria-expanded=false aria-label="Toggle section navigation">
 </button>
 </form>
-<nav class="collapse td-sidebar-nav" id=td-section-nav>
+<nav class="collapse td-sidebar-nav foldable-nav" id=td-section-nav>
 <div class="nav-item dropdown d-block d-lg-none">
 <a class="nav-link dropdown-toggle" href=# id=navbarDropdown role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>
 English
@@ -92,19 +92,24 @@ English
 <a href=/lambda-demo/blog/ title="Docsy Blog" class="align-left pl-0 active td-sidebar-link td-sidebar-link__section tree-root" id=m-lambda-demoblog><span class=td-sidebar-nav-active-item>Blog</span></a>
 <ul class=ul-1>
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demoblognews-li>
-<a href=/lambda-demo/blog/news/ title="News About Docsy" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demoblognews><span>News</span></a>
+<input type=checkbox id=m-lambda-demoblognews-check>
+<label for=m-lambda-demoblognews-check><a href=/lambda-demo/blog/news/ title="News About Docsy" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demoblognews><span>News</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demoblog20181006easy-documentation-with-docsy-li>
-<a href=/lambda-demo/blog/2018/10/06/easy-documentation-with-docsy/ title="Easy documentation with Docsy" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demoblog20181006easy-documentation-with-docsy><span>Announcing Docsy</span></a>
+<input type=checkbox id=m-lambda-demoblog20181006easy-documentation-with-docsy-check>
+<label for=m-lambda-demoblog20181006easy-documentation-with-docsy-check><a href=/lambda-demo/blog/2018/10/06/easy-documentation-with-docsy/ title="Easy documentation with Docsy" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demoblog20181006easy-documentation-with-docsy><span>Announcing Docsy</span></a></label>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demoblog20181006the-second-blog-post-li>
-<a href=/lambda-demo/blog/2018/10/06/the-second-blog-post/ title="The second blog post" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demoblog20181006the-second-blog-post><span>Second blog post</span></a>
+<input type=checkbox id=m-lambda-demoblog20181006the-second-blog-post-check>
+<label for=m-lambda-demoblog20181006the-second-blog-post-check><a href=/lambda-demo/blog/2018/10/06/the-second-blog-post/ title="The second blog post" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demoblog20181006the-second-blog-post><span>Second blog post</span></a></label>
 </li>
 </ul>
 </li><li class="td-sidebar-nav__section-title td-sidebar-nav__section with-child" id=m-lambda-demoblogreleases-li>
-<a href=/lambda-demo/blog/releases/ title="New Releases" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demoblogreleases><span>Releases</span></a>
+<input type=checkbox id=m-lambda-demoblogreleases-check>
+<label for=m-lambda-demoblogreleases-check><a href=/lambda-demo/blog/releases/ title="New Releases" class="align-left pl-0 td-sidebar-link td-sidebar-link__section" id=m-lambda-demoblogreleases><span>Releases</span></a></label>
 <ul class="ul-2 foldable">
 <li class="td-sidebar-nav__section-title td-sidebar-nav__section without-child" id=m-lambda-demoblog20180104another-great-release-li>
-<a href=/lambda-demo/blog/2018/01/04/another-great-release/ title="Another Great Release" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demoblog20180104another-great-release><span>Release New Features</span></a>
+<input type=checkbox id=m-lambda-demoblog20180104another-great-release-check>
+<label for=m-lambda-demoblog20180104another-great-release-check><a href=/lambda-demo/blog/2018/01/04/another-great-release/ title="Another Great Release" class="align-left pl-0 td-sidebar-link td-sidebar-link__page" id=m-lambda-demoblog20180104another-great-release><span>Release New Features</span></a></label>
 </li>
 </ul>
 </li>
