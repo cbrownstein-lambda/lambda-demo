@@ -95,6 +95,8 @@ This is the multi-page printable view of this section.
 <li>2: <a href=#pg-93aadc1aba179e6928539400a09b9e4e>Getting Started</a></li>
 <ul>
 <li>2.1: <a href=#pg-19910e17d662389a54e0e81ecab73994>Example Page</a></li>
+<li>2.2: <a href=#pg-0bad26d84332b21d334033a99062ec94>SSH Into Your Lambda Cloud Instances</a></li>
+<li>2.3: <a href=#pg-028899235c8229c2fa1a0a288bfc0175>Upload Data to Lambda Cloud</a></li>
 </ul>
 <li>3: <a href=#pg-fb0f854c53f1ba28ad4c2ccf8d24df34>Examples</a></li>
 <ul>
@@ -121,7 +123,10 @@ This is the multi-page printable view of this section.
 </ul>
 <li>7: <a href=#pg-58e422f0d0c177f3a9fc751d665e59e5>FAQs</a></li>
 <ul>
-<li>7.1: <a href=#pg-315fae1acc1cb0996ddf406763ddf1ed>Do you offer free trials?</a></li>
+<li>7.1: <a href=#pg-2d29cebe54830a89ba4969c603a05aae>Can I mine crypto?</a></li>
+<li>7.2: <a href=#pg-315fae1acc1cb0996ddf406763ddf1ed>Do you offer free trials?</a></li>
+<li>7.3: <a href=#pg-79c2e07b3acdf2c3eb4c039da5bd837e>Is Lambda Cloud Like AWS Cloud?</a></li>
+<li>7.4: <a href=#pg-11dd8e64ec3d229c339facf4865238e8>What Can Lambda Cloud Be Used For?</a></li>
 </ul>
 <li>8: <a href=#pg-8df6ea6904416b571ff9bc73afb50933>Reference</a></li>
 <ul>
@@ -465,6 +470,44 @@ This is a warning with a title.
 <p>Stumptown PBR&B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.</p>
 <pre tabindex=0><code>This is the final element on the page and there should be no margin below this.
 </code></pre>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-0bad26d84332b21d334033a99062ec94>2.2 - SSH Into Your Lambda Cloud Instances</h1>
+<p>For security, we use ssh key based authentication rather than password based.</p>
+<p>If you&rsquo;re running Linux or MacOS on your local computer, then you can find
+instructions for how to set up key based authentication here:
+<a href=https://lambdalabs.com/service/lambda-gpu-cloud-faq>https://lambdalabs.com/service/lambda-gpu-cloud-faq</a></p>
+<p>It looks like the interface has changed a bit since that video was made, so
+please feel free to reach out again if you run into trouble or are sshing in
+from a Windows machine, etc.</p>
+<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
+<iframe src=https://www.youtube.com/embed/CKxR6ClKstU style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
+</div>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-028899235c8229c2fa1a0a288bfc0175>2.3 - Upload Data to Lambda Cloud</h1>
+<p>Hi,</p>
+<p>There are multiple solutions for transferring your files to an instance. The
+easiest is probably to use scp:
+<a href=https://lambdalabs.com/blog/downloading-data-sets-lambda-cloud/>https://lambdalabs.com/blog/downloading-data-sets-lambda-cloud/</a></p>
+<p>I personally like using rsync:</p>
+<p>A good example command would be: rsync &ndash;archive &ndash;info=progress2
+my_local_dir/ ubuntu@instance-ip:destination/ &ndash;archive tells rsync to copy
+directories recursively and try to preserve permissions / modification times,
+etc as much as possible. &ndash;info=progress2 tells rsync to show the overall
+progress of the transfer as it goes. &ldquo;destination/&rdquo; is relative to
+/home/ubuntu/ on the instance, and for large transfers you probably want to
+transfer into one of our cloud filesystems to avoid needing to rsync again for
+future instances. If your filesystem is named &ldquo;foobar&rdquo; then if you attach it
+to an instance it will be available at /home/ubuntu/foobar/. To copy into it
+you could do: rsync &ndash;archive &ndash;info=progress2 my_local_dir/
+ubuntu@instance-ip:foobar/</p>
+<p>If you us a private key other than ~/.ssh/id_rsa when you ssh into your
+instance, then you&rsquo;ll need to provide the path for that to rsync as well. You
+can do that by adding -e &ldquo;ssh -i /path/to/private/key&rdquo;. In the full command,
+that would be:</p>
+<p>rsync &ndash;archive &ndash;info=progress2 -e &ldquo;ssh -i /path/to/private/key&rdquo;
+my_local_dir/ ubuntu@instance-ip:foobar/</p>
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-fb0f854c53f1ba28ad4c2ccf8d24df34>3 - Examples</h1>
@@ -2466,12 +2509,65 @@ This is a warning with a title.
 <div class=lead>Frequently Asked Questions</div>
 </div>
 <div class=td-content>
-<h1 id=pg-315fae1acc1cb0996ddf406763ddf1ed>7.1 - Do you offer free trials?</h1>
+<h1 id=pg-2d29cebe54830a89ba4969c603a05aae>7.1 - Can I mine crypto?</h1>
+<p>No.</p>
+<p>Crypto mining is explicitly forbidden on our platform. Any attempt to do so
+anyway may lead to a permanent ban from our services.</p>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-315fae1acc1cb0996ddf406763ddf1ed>7.2 - Do you offer free trials?</h1>
 <p>We do sometimes offer signup credits to professors, researchers, and students
 but unfortunately we cannot at this time.</p>
 <p>We have more demand than available GPUs for our existing customers.</p>
 <p>Please check back in later, say a month or so from now, though. (Be sure to
 sign up and contact us from your school provided email address)</p>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-79c2e07b3acdf2c3eb4c039da5bd837e>7.3 - Is Lambda Cloud Like AWS Cloud?</h1>
+<p>Hi,</p>
+<p>Lambda Cloud is not really the same type of service as AWS Lambda (While AWS
+Lambda is named that because it&rsquo;s like running functions rather than
+persistent services, &ldquo;Lambda Cloud&rdquo; is named that because it&rsquo;s a part of
+<a href=https://lambdalabs.com>https://lambdalabs.com</a> , a company started by functional programming
+enthusiasts in 2012).</p>
+<p>Most of our users are looking for instances to train ML models, which takes
+days to weeks and isn&rsquo;t concerned with latency or boot times. Most of our
+instances take a few minutes to boot, and we don&rsquo;t have a public API for
+spinning up instances on demand.</p>
+<p>You certainly can do inference in our cloud, but to be perfectly honest I
+don&rsquo;t think it will be a good fit for you (currently).</p>
+<p>I hope that answers your question, and please reach out if you have any
+further questions.</p>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-11dd8e64ec3d229c339facf4865238e8>7.4 - What Can Lambda Cloud Be Used For?</h1>
+<p>Hi,</p>
+<p>Yes. Anything that your could run from a computer sitting under your desk with
+the same specs as our instances (
+<a href=https://lambdalabs.com/service/gpu-cloud/pricing>https://lambdalabs.com/service/gpu-cloud/pricing</a> ), you can run on our cloud
+instances. (With the caveat that our instances are headless, so imagine that
+you have a desktop under your desk that you can ssh into / use JupyterLab with
+but no monitor).</p>
+<p>Also, with the specifications of our instances, there are very few machine
+learning workloads that cannot be run. (Generally ML workloads are limited by
+Video RAM, and one 48 GiB VRAM A6000 is already a fairly large amount of
+VRAM.)</p>
+<p>Our instances start with Ubuntu 20.04 LTS + Lambda Stack, which gets you a lot
+of the way toward running any ML workload, but you will often need to install
+additional dependencies following the documentation provided from the
+project.nvi</p>
+<p>Where X is Google Colab or another machine learning cloud: Yes. All of our
+instances come with a JupyterLabs WebIDE, and while Colab notebooks may need
+some small tweaks to run on Lambda Cloud, I&rsquo;m happy to help with that if
+needed.</p>
+<p>Where X involves inference or otherwise using a Lambda instances as part of
+the back end of a customer facing website: Hi,</p>
+<p>The short answer is yes, you can use our cloud for hosting. However, we
+currently do not offer any guarantees around bandwidth and uptime. With that
+said, our cloud is reliable and may be good enough depending on your specific
+needs. We would need to do some due diligence and understand your
+requirements. I&rsquo;ll have someone reach out to you to learn more and decide if
+there is a mutual fit.</p>
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-8df6ea6904416b571ff9bc73afb50933>8 - Reference</h1>

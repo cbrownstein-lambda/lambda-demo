@@ -88,6 +88,8 @@ This is the multi-page printable view of this section.
 <div class=lead>What does your user need to know to try your project?</div>
 <ul>
 <li>1: <a href=#pg-19910e17d662389a54e0e81ecab73994>Example Page</a></li>
+<li>2: <a href=#pg-0bad26d84332b21d334033a99062ec94>SSH Into Your Lambda Cloud Instances</a></li>
+<li>3: <a href=#pg-028899235c8229c2fa1a0a288bfc0175>Upload Data to Lambda Cloud</a></li>
 </ul>
 <div class=content>
 <div class="pageinfo pageinfo-primary">
@@ -382,6 +384,44 @@ This is a warning with a title.
 <p>Stumptown PBR&B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.</p>
 <pre tabindex=0><code>This is the final element on the page and there should be no margin below this.
 </code></pre>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-0bad26d84332b21d334033a99062ec94>2 - SSH Into Your Lambda Cloud Instances</h1>
+<p>For security, we use ssh key based authentication rather than password based.</p>
+<p>If you&rsquo;re running Linux or MacOS on your local computer, then you can find
+instructions for how to set up key based authentication here:
+<a href=https://lambdalabs.com/service/lambda-gpu-cloud-faq>https://lambdalabs.com/service/lambda-gpu-cloud-faq</a></p>
+<p>It looks like the interface has changed a bit since that video was made, so
+please feel free to reach out again if you run into trouble or are sshing in
+from a Windows machine, etc.</p>
+<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
+<iframe src=https://www.youtube.com/embed/CKxR6ClKstU style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
+</div>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-028899235c8229c2fa1a0a288bfc0175>3 - Upload Data to Lambda Cloud</h1>
+<p>Hi,</p>
+<p>There are multiple solutions for transferring your files to an instance. The
+easiest is probably to use scp:
+<a href=https://lambdalabs.com/blog/downloading-data-sets-lambda-cloud/>https://lambdalabs.com/blog/downloading-data-sets-lambda-cloud/</a></p>
+<p>I personally like using rsync:</p>
+<p>A good example command would be: rsync &ndash;archive &ndash;info=progress2
+my_local_dir/ ubuntu@instance-ip:destination/ &ndash;archive tells rsync to copy
+directories recursively and try to preserve permissions / modification times,
+etc as much as possible. &ndash;info=progress2 tells rsync to show the overall
+progress of the transfer as it goes. &ldquo;destination/&rdquo; is relative to
+/home/ubuntu/ on the instance, and for large transfers you probably want to
+transfer into one of our cloud filesystems to avoid needing to rsync again for
+future instances. If your filesystem is named &ldquo;foobar&rdquo; then if you attach it
+to an instance it will be available at /home/ubuntu/foobar/. To copy into it
+you could do: rsync &ndash;archive &ndash;info=progress2 my_local_dir/
+ubuntu@instance-ip:foobar/</p>
+<p>If you us a private key other than ~/.ssh/id_rsa when you ssh into your
+instance, then you&rsquo;ll need to provide the path for that to rsync as well. You
+can do that by adding -e &ldquo;ssh -i /path/to/private/key&rdquo;. In the full command,
+that would be:</p>
+<p>rsync &ndash;archive &ndash;info=progress2 -e &ldquo;ssh -i /path/to/private/key&rdquo;
+my_local_dir/ ubuntu@instance-ip:foobar/</p>
 </div>
 </main>
 </div>
