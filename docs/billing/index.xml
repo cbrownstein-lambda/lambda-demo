@@ -26,7 +26,7 @@
 &lt;h2 id="the-purchase-is-being-made-using-a-vpn">The purchase is being made using a VPN&lt;/h2>
 &lt;p>Purchases made while using a VPN are flagged as suspicious.&lt;/p>
 &lt;h2 id="the-card-issuer-is-denying-our-pre-authorization-charge">The card issuer is denying our pre-authorization charge&lt;/h2>
-&lt;p>We make a $10 pre-authorization charge to a card before accepting it for
+&lt;p>We make a &lt;a href="https://cbrownstein-lambda.github.io/lambda-demo/lambda-demo/docs/faqs/why-was-i-charged-10-dollars/">$10 pre-authorization charge&lt;/a> to a card before accepting it for
 payment, similar to how gas stations and hotels do. If the card issuer denies
 the pre-authorization charge, then we cannot accept the card for payment.&lt;/p>
 &lt;h2 id="wrong-cvv-or-zip-code-being-entered">Wrong CVV or ZIP Code being entered&lt;/h2>
