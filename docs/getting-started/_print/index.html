@@ -78,8 +78,8 @@ This is the multi-page printable view of this section.
 <h1 class=title>Getting Started</h1>
 <div class=lead>What does your user need to know to try your project?</div>
 <ul>
-<li>1: <a href=#pg-19910e17d662389a54e0e81ecab73994>Example Page</a></li>
-<li>2: <a href=#pg-0bad26d84332b21d334033a99062ec94>SSH Into Your Lambda Cloud Instances</a></li>
+<li>1: <a href=#pg-0bad26d84332b21d334033a99062ec94>Access Lambda Cloud instance using SSH</a></li>
+<li>2: <a href=#pg-19910e17d662389a54e0e81ecab73994>Example Page</a></li>
 <li>3: <a href=#pg-028899235c8229c2fa1a0a288bfc0175>Upload Data to Lambda Cloud</a></li>
 </ul>
 <div class=content>
@@ -107,7 +107,55 @@ This is the multi-page printable view of this section.
 </div>
 </div>
 <div class=td-content style=page-break-before:always>
-<h1 id=pg-19910e17d662389a54e0e81ecab73994>1 - Example Page</h1>
+<h1 id=pg-0bad26d84332b21d334033a99062ec94>1 - Access Lambda Cloud instance using SSH</h1>
+<h2 id=using-ssh-in-linux-and-macos>Using SSH in Linux and macOS</h2>
+<h3 id=generate-a-ssh-public-private-key-pair>Generate a SSH public-private key pair</h3>
+<p>If you do not already have a SSH public-private key pair, you will need to
+generate one in order to access your Lambda Cloud instance using SSH.</p>
+<ol>
+<li>
+<p>In a terminal, run the following command and follow the prompts given to
+you:</p>
+<pre><code>ssh-keygen
+</code></pre>
+<p>This command generates a SSH public-private key pair. By default, the
+public key is stored in the file <code>~/.ssh/id_rsa.pub</code>, and the private key
+is stored in the file <code>~/.ssh/id_rsa</code>.</p>
+<div class="alert alert-warning" role=alert>
+<h4 class=alert-heading>Warning</h4>
+Do not share the SSH private key. Anyone with the SSH private key and the
+key passphrase will be able to access your Lambda Cloud instance.
+</div>
+</li>
+</ol>
+<h2 id=add-your-ssh-public-key-to-lambda-cloud>Add your SSH public key to Lambda Cloud</h2>
+<ol>
+<li>
+<p>Run the following in the terminal to output your SSH public key:</p>
+<pre><code>cat ~/.ssh/id_rsa.pub
+</code></pre>
+<p>Alternatively, you can open <code>~/.ssh/id_rsa.pub</code> using a text editor.</p>
+</li>
+<li>
+<p>Copy the SSH public key to your clipboard.</p>
+</li>
+<li>
+<p>Log into your Lambda Cloud account.</p>
+<p>In the left sidebar of the Lambda Cloud dashboard, click <strong>SSH Keys</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Add SSH key</strong>.</p>
+</li>
+<li>
+<p>Paste your SSH public key into the box that says <em>Paste your public key
+here</em>.</p>
+<p>In the box that says <em>Title</em>, give your public key a name. For example, you
+can use your name or the name of your computer.</p>
+</li>
+</ol>
+</div>
+<div class=td-content style=page-break-before:always>
+<h1 id=pg-19910e17d662389a54e0e81ecab73994>2 - Example Page</h1>
 <div class=lead>A short lead description about this content page. It can be <strong>bold</strong> or <em>italic</em> and can be split over multiple paragraphs.</div>
 <div class="pageinfo pageinfo-primary">
 <p>This is a placeholder page. Replace it with your own content.</p>
@@ -375,19 +423,6 @@ This is a warning with a title.
 <p>Stumptown PBR&B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.</p>
 <pre tabindex=0><code>This is the final element on the page and there should be no margin below this.
 </code></pre>
-</div>
-<div class=td-content style=page-break-before:always>
-<h1 id=pg-0bad26d84332b21d334033a99062ec94>2 - SSH Into Your Lambda Cloud Instances</h1>
-<p>For security, we use ssh key based authentication rather than password based.</p>
-<p>If you&rsquo;re running Linux or MacOS on your local computer, then you can find
-instructions for how to set up key based authentication here:
-<a href=https://lambdalabs.com/service/lambda-gpu-cloud-faq>https://lambdalabs.com/service/lambda-gpu-cloud-faq</a></p>
-<p>It looks like the interface has changed a bit since that video was made, so
-please feel free to reach out again if you run into trouble or are sshing in
-from a Windows machine, etc.</p>
-<div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden>
-<iframe src=https://www.youtube.com/embed/CKxR6ClKstU style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 allowfullscreen title="YouTube Video"></iframe>
-</div>
 </div>
 <div class=td-content style=page-break-before:always>
 <h1 id=pg-028899235c8229c2fa1a0a288bfc0175>3 - Upload Data to Lambda Cloud</h1>
