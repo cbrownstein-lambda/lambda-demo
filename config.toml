@@ -1,4 +1,4 @@
-baseURL = "https://cbrownstein-lambda.github.io/lambda-demo"
+baseURL = "/lambda-demo"
 title = "Lambda demo"
 
 # Language settings
