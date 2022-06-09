@@ -1926,7 +1926,34 @@ the pre-authorization charge, then we cannot accept the card for payment.&lt;/p>
 &lt;p>Card purchases won&amp;rsquo;t go through if the CVV (security) is entered incorrectly.
 Also, card purchases will be denied if the ZIP Code does not match with the
 card billing address.&lt;/p>
-&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
+&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: What can Lambda Cloud be used for?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
+&lt;p>Hi,&lt;/p>
+&lt;p>Yes. Anything that your could run from a computer sitting under your desk with
+the same specs as our instances (
+&lt;a href="https://lambdalabs.com/service/gpu-cloud/pricing">https://lambdalabs.com/service/gpu-cloud/pricing&lt;/a> ), you can run on our cloud
+instances. (With the caveat that our instances are headless, so imagine that
+you have a desktop under your desk that you can ssh into / use JupyterLab with
+but no monitor).&lt;/p>
+&lt;p>Also, with the specifications of our instances, there are very few machine
+learning workloads that cannot be run. (Generally ML workloads are limited by
+Video RAM, and one 48 GiB VRAM A6000 is already a fairly large amount of
+VRAM.)&lt;/p>
+&lt;p>Our instances start with Ubuntu 20.04 LTS + Lambda Stack, which gets you a lot
+of the way toward running any ML workload, but you will often need to install
+additional dependencies following the documentation provided from the
+project.nvi&lt;/p>
+&lt;p>Where X is Google Colab or another machine learning cloud: Yes. All of our
+instances come with a JupyterLabs WebIDE, and while Colab notebooks may need
+some small tweaks to run on Lambda Cloud, I&amp;rsquo;m happy to help with that if
+needed.&lt;/p>
+&lt;p>Where X involves inference or otherwise using a Lambda instances as part of
+the back end of a customer facing website: Hi,&lt;/p>
+&lt;p>The short answer is yes, you can use our cloud for hosting. However, we
+currently do not offer any guarantees around bandwidth and uptime. With that
+said, our cloud is reliable and may be good enough depending on your specific
+needs. We would need to do some due diligence and understand your
+requirements. I&amp;rsquo;ll have someone reach out to you to learn more and decide if
+there is a mutual fit.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
 &lt;p>No.&lt;/p>
 &lt;p>Crypto mining is explicitly forbidden on our platform. Any attempt to do so
 anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid><description>
@@ -2495,31 +2522,4 @@ instance, then you&amp;rsquo;ll need to provide the path for that to rsync as we
 can do that by adding -e &amp;ldquo;ssh -i /path/to/private/key&amp;rdquo;. In the full command,
 that would be:&lt;/p>
 &lt;p>rsync &amp;ndash;archive &amp;ndash;info=progress2 -e &amp;ldquo;ssh -i /path/to/private/key&amp;rdquo;
-my_local_dir/ ubuntu@instance-ip:foobar/&lt;/p></description></item><item><title>Docs: What Can Lambda Cloud Be Used For?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
-&lt;p>Hi,&lt;/p>
-&lt;p>Yes. Anything that your could run from a computer sitting under your desk with
-the same specs as our instances (
-&lt;a href="https://lambdalabs.com/service/gpu-cloud/pricing">https://lambdalabs.com/service/gpu-cloud/pricing&lt;/a> ), you can run on our cloud
-instances. (With the caveat that our instances are headless, so imagine that
-you have a desktop under your desk that you can ssh into / use JupyterLab with
-but no monitor).&lt;/p>
-&lt;p>Also, with the specifications of our instances, there are very few machine
-learning workloads that cannot be run. (Generally ML workloads are limited by
-Video RAM, and one 48 GiB VRAM A6000 is already a fairly large amount of
-VRAM.)&lt;/p>
-&lt;p>Our instances start with Ubuntu 20.04 LTS + Lambda Stack, which gets you a lot
-of the way toward running any ML workload, but you will often need to install
-additional dependencies following the documentation provided from the
-project.nvi&lt;/p>
-&lt;p>Where X is Google Colab or another machine learning cloud: Yes. All of our
-instances come with a JupyterLabs WebIDE, and while Colab notebooks may need
-some small tweaks to run on Lambda Cloud, I&amp;rsquo;m happy to help with that if
-needed.&lt;/p>
-&lt;p>Where X involves inference or otherwise using a Lambda instances as part of
-the back end of a customer facing website: Hi,&lt;/p>
-&lt;p>The short answer is yes, you can use our cloud for hosting. However, we
-currently do not offer any guarantees around bandwidth and uptime. With that
-said, our cloud is reliable and may be good enough depending on your specific
-needs. We would need to do some due diligence and understand your
-requirements. I&amp;rsquo;ll have someone reach out to you to learn more and decide if
-there is a mutual fit.&lt;/p></description></item></channel></rss>
+my_local_dir/ ubuntu@instance-ip:foobar/&lt;/p></description></item></channel></rss>
