@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda docs demo – Tutorials</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/</link><description>Recent content in Tutorials on Lambda docs demo</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 04 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/lambda-stack-docker-container/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/lambda-stack-docker-container/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – Tutorials</title><link>/lambda-demo/docs/tutorials/</link><description>Recent content in Tutorials on Lambda demo</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 04 Jan 2017 00:00:00 +0000</lastBuildDate><atom:link href="/lambda-demo/docs/tutorials/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</title><link>/lambda-demo/docs/tutorials/lambda-stack-docker-container/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/tutorials/lambda-stack-docker-container/</guid><description>
 &lt;ol>
 &lt;li>
 &lt;p>Install &lt;a href="https://lambdalabs.com/lambda-stack-deep-learning-software">Lambda Stack&lt;/a>.
@@ -50,7 +50,7 @@ created.&lt;/p>
 &lt;li>
 &lt;p>To exit the container, run the command &lt;code>exit&lt;/code>.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Multi-Bear Domicile Setup</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/multi-bear/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Multi-Bear Domicile Setup</title><link>/lambda-demo/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/tutorials/multi-bear/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -313,7 +313,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Another Tutorial</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/tutorial2/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Another Tutorial</title><link>/lambda-demo/docs/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/tutorials/tutorial2/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
