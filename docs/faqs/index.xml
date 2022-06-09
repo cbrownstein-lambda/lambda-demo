@@ -1,12 +1,12 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – FAQs</title><link>/lambda-demo/docs/faqs/</link><description>Recent content in FAQs on Lambda demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="/lambda-demo/docs/faqs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Can I mine crypto?</title><link>/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – FAQs</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/</link><description>Recent content in FAQs on Lambda demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
 &lt;p>No.&lt;/p>
 &lt;p>Crypto mining is explicitly forbidden on our platform. Any attempt to do so
-anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>/lambda-demo/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid><description>
+anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid><description>
 &lt;p>We do sometimes offer signup credits to professors, researchers, and students
 but unfortunately we cannot at this time.&lt;/p>
 &lt;p>We have more demand than available GPUs for our existing customers.&lt;/p>
 &lt;p>Please check back in later, say a month or so from now, though. (Be sure to
-sign up and contact us from your school provided email address)&lt;/p></description></item><item><title>Docs: Is Lambda Cloud Like AWS Cloud?</title><link>/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</guid><description>
+sign up and contact us from your school provided email address)&lt;/p></description></item><item><title>Docs: Is Lambda Cloud Like AWS Cloud?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>Lambda Cloud is not really the same type of service as AWS Lambda (While AWS
 Lambda is named that because it&amp;rsquo;s like running functions rather than
@@ -20,7 +20,7 @@ spinning up instances on demand.&lt;/p>
 &lt;p>You certainly can do inference in our cloud, but to be perfectly honest I
 don&amp;rsquo;t think it will be a good fit for you (currently).&lt;/p>
 &lt;p>I hope that answers your question, and please reach out if you have any
-further questions.&lt;/p></description></item><item><title>Docs: What Can Lambda Cloud Be Used For?</title><link>/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
+further questions.&lt;/p></description></item><item><title>Docs: What Can Lambda Cloud Be Used For?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>Yes. Anything that your could run from a computer sitting under your desk with
 the same specs as our instances (
