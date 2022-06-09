@@ -39,7 +39,7 @@ Purchases made while using a VPN are flagged as suspicious.
 
 ## The card issuer is denying our pre-authorization charge
 
-We make a $10 pre-authorization charge to a card before accepting it for
+We make a [$10 pre-authorization charge](/lambda-demo/docs/faqs/why-was-i-charged-10-dollars/) to a card before accepting it for
 payment, similar to how gas stations and hotels do. If the card issuer denies
 the pre-authorization charge, then we cannot accept the card for payment.
 
