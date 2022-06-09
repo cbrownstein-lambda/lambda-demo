@@ -1,7 +1,7 @@
 ---
-title: "What Can Lambda Cloud Be Used For?"
-linkTitle: "What Can Lambda Cloud Be Used For?"
-date: 2017-01-05
+title: "What can Lambda Cloud be used for?"
+linkTitle: "What can Lambda Cloud be used for?"
+date: 2022-06-09
 description: >
 ---
 
