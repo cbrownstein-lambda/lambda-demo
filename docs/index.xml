@@ -1891,7 +1891,42 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid><description>
+&lt;p>Common reasons why credit and debit card transactions are declined include:&lt;/p>
+&lt;h2 id="the-card-is-a-prepaid-card">The card is a prepaid card&lt;/h2>
+&lt;p>We don&amp;rsquo;t accept prepaid cards. We only accept major credit and debit cards.&lt;/p>
+&lt;h2 id="the-purchase-is-being-made-from-a-country-we-dont-support">The purchase is being made from a country we don&amp;rsquo;t support&lt;/h2>
+&lt;p>We currently only support customers in the following countries:&lt;/p>
+&lt;ul>
+&lt;li>United States&lt;/li>
+&lt;li>Canada&lt;/li>
+&lt;li>Chile&lt;/li>
+&lt;li>Iceland&lt;/li>
+&lt;li>United Arab Emirates&lt;/li>
+&lt;li>Saudi Arabia&lt;/li>
+&lt;li>South Africa&lt;/li>
+&lt;li>Israel&lt;/li>
+&lt;li>Taiwan&lt;/li>
+&lt;li>Republic of Korea&lt;/li>
+&lt;li>Japan&lt;/li>
+&lt;li>Singapore&lt;/li>
+&lt;li>Australia&lt;/li>
+&lt;li>New Zealand&lt;/li>
+&lt;li>United Kingdom&lt;/li>
+&lt;li>Switzerland&lt;/li>
+&lt;li>European Union&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-purchase-is-being-made-using-a-vpn">The purchase is being made using a VPN&lt;/h2>
+&lt;p>Purchases made while using a VPN are flagged as suspicious.&lt;/p>
+&lt;h2 id="the-card-issuer-is-denying-our-pre-authorization-charge">The card issuer is denying our pre-authorization charge&lt;/h2>
+&lt;p>We make a $10 pre-authorization charge to a card before accepting it for
+payment, similar to how gas stations and hotels do. If the card issuer denies
+the pre-authorization charge, then we cannot accept the card for payment.&lt;/p>
+&lt;h2 id="wrong-cvv-or-zip-code-being-entered">Wrong CVV or ZIP Code being entered&lt;/h2>
+&lt;p>Card purchases won&amp;rsquo;t go through if the CVV (security) is entered incorrectly.
+Also, card purchases will be denied if the ZIP Code does not match with the
+card billing address.&lt;/p>
+&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
 &lt;p>No.&lt;/p>
 &lt;p>Crypto mining is explicitly forbidden on our platform. Any attempt to do so
 anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid><description>
