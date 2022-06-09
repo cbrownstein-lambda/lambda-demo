@@ -1912,7 +1912,7 @@ key passphrase will be able to access your Lambda Cloud instance.
 &lt;/div>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="add-your-ssh-public-key-to-lambda-cloud">Add your SSH public key to Lambda Cloud&lt;/h2>
+&lt;h3 id="add-your-ssh-public-key-to-lambda-cloud">Add your SSH public key to Lambda Cloud&lt;/h3>
 &lt;ol>
 &lt;li>
 &lt;p>Run the following in the terminal to output your SSH public key:&lt;/p>
