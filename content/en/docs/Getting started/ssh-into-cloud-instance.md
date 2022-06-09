@@ -1,9 +1,9 @@
 ---
 categories: ["Examples"]
 tags: ["test", "sample", "docs"]
-title: "SSH Into Your Lambda Cloud Instances"
-linkTitle: "SSH Into Your Lambda Cloud Instances"
-date: 2017-01-05
+title: "Access Lambda Cloud instance using SSH"
+linkTitle: "Access Lambda Cloud instance using SSH"
+date: 2022-06-09
 description: >
 ---
 
