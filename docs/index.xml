@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda docs demo – Documentation</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/</link><description>Recent content in Documentation on Lambda docs demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Bed and Chair Metrics</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/beds/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda docs demo – Documentation</title><link>/docs/</link><description>Recent content in Documentation on Lambda docs demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Bed and Chair Metrics</title><link>/docs/tasks/beds/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tasks/beds/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -261,7 +261,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Configuring Ponycopters</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/ponycopters/configuring-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/ponycopters/configuring-ponycopters/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Configuring Ponycopters</title><link>/docs/tasks/ponycopters/configuring-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tasks/ponycopters/configuring-ponycopters/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -524,7 +524,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Launching Ponycopters</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/ponycopters/launching-ponycopters/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Launching Ponycopters</title><link>/docs/tasks/ponycopters/launching-ponycopters/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tasks/ponycopters/launching-ponycopters/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -787,7 +787,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/lambda-stack-docker-container/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/lambda-stack-docker-container/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: How to Use Lambda Stack to Create a GPU-accelerated PyTorch Docker Container</title><link>/docs/tutorials/lambda-stack-docker-container/</link><pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate><guid>/docs/tutorials/lambda-stack-docker-container/</guid><description>
 &lt;ol>
 &lt;li>
 &lt;p>Install &lt;a href="https://lambdalabs.com/lambda-stack-deep-learning-software">Lambda Stack&lt;/a>.
@@ -839,7 +839,7 @@ created.&lt;/p>
 &lt;li>
 &lt;p>To exit the container, run the command &lt;code>exit&lt;/code>.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Multi-Bear Domicile Setup</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/multi-bear/</guid><description>
+&lt;/ol></description></item><item><title>Docs: Multi-Bear Domicile Setup</title><link>/docs/tutorials/multi-bear/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tutorials/multi-bear/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -1102,7 +1102,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Porridge Assessment</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/porridge/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/porridge/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Porridge Assessment</title><link>/docs/tasks/porridge/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tasks/porridge/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -1365,7 +1365,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Another Task</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/task/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tasks/task/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Another Task</title><link>/docs/tasks/task/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tasks/task/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -1628,7 +1628,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Another Tutorial</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/tutorials/tutorial2/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Another Tutorial</title><link>/docs/tutorials/tutorial2/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/tutorials/tutorial2/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -1891,7 +1891,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>/docs/billing/problem-processing-payment-method/</guid><description>
 &lt;p>Common reasons why credit and debit card transactions are declined include:&lt;/p>
 &lt;h2 id="the-card-is-a-prepaid-card">The card is a prepaid card&lt;/h2>
 &lt;p>We don&amp;rsquo;t accept prepaid cards. We only accept major credit and debit cards.&lt;/p>
@@ -1926,15 +1926,15 @@ the pre-authorization charge, then we cannot accept the card for payment.&lt;/p>
 &lt;p>Card purchases won&amp;rsquo;t go through if the CVV (security) is entered incorrectly.
 Also, card purchases will be denied if the ZIP Code does not match with the
 card billing address.&lt;/p>
-&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
+&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/faqs/can-i-mine-crypto/</guid><description>
 &lt;p>No.&lt;/p>
 &lt;p>Crypto mining is explicitly forbidden on our platform. Any attempt to do so
-anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid><description>
+anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/faqs/do-you-offer-free-trials/</guid><description>
 &lt;p>We do sometimes offer signup credits to professors, researchers, and students
 but unfortunately we cannot at this time.&lt;/p>
 &lt;p>We have more demand than available GPUs for our existing customers.&lt;/p>
 &lt;p>Please check back in later, say a month or so from now, though. (Be sure to
-sign up and contact us from your school provided email address)&lt;/p></description></item><item><title>Docs: Example Page</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</guid><description>
+sign up and contact us from your school provided email address)&lt;/p></description></item><item><title>Docs: Example Page</title><link>/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/getting-started/example-page/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -2197,7 +2197,7 @@ This is a warning with a title.
 &lt;h3 id="external-links">External Links&lt;/h3>
 &lt;p>Stumptown PBR&amp;amp;B keytar plaid street art, forage XOXO pitchfork selvage affogato green juice listicle pickled everyday carry hashtag. Organic sustainable letterpress sartorial scenester intelligentsia swag bushwick. Put a bird on it stumptown neutra locavore. IPhone typewriter messenger bag narwhal. Ennui cold-pressed seitan flannel keytar, single-origin coffee adaptogen occupy yuccie williamsburg chillwave shoreditch forage waistcoat.&lt;/p>
 &lt;pre tabindex="0">&lt;code>This is the final element on the page and there should be no margin below this.
-&lt;/code>&lt;/pre></description></item><item><title>Docs: Is Lambda Cloud Like AWS Cloud?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</guid><description>
+&lt;/code>&lt;/pre></description></item><item><title>Docs: Is Lambda Cloud Like AWS Cloud?</title><link>/docs/faqs/is-lambda-cloud-like-aws-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/faqs/is-lambda-cloud-like-aws-cloud/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>Lambda Cloud is not really the same type of service as AWS Lambda (While AWS
 Lambda is named that because it&amp;rsquo;s like running functions rather than
@@ -2211,7 +2211,7 @@ spinning up instances on demand.&lt;/p>
 &lt;p>You certainly can do inference in our cloud, but to be perfectly honest I
 don&amp;rsquo;t think it will be a good fit for you (currently).&lt;/p>
 &lt;p>I hope that answers your question, and please reach out if you have any
-further questions.&lt;/p></description></item><item><title>Docs: Parameter Reference</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/reference/parameter-reference/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/reference/parameter-reference/</guid><description>
+further questions.&lt;/p></description></item><item><title>Docs: Parameter Reference</title><link>/docs/reference/parameter-reference/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/reference/parameter-reference/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
@@ -2463,7 +2463,7 @@ This is a warning.
 This is a warning with a title.
 &lt;/div>
 &lt;/p>
-&lt;h2 id="another-heading">Another Heading&lt;/h2></description></item><item><title>Docs: SSH Into Your Lambda Cloud Instances</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/ssh-into-cloud-instance/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/ssh-into-cloud-instance/</guid><description>
+&lt;h2 id="another-heading">Another Heading&lt;/h2></description></item><item><title>Docs: SSH Into Your Lambda Cloud Instances</title><link>/docs/getting-started/ssh-into-cloud-instance/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/getting-started/ssh-into-cloud-instance/</guid><description>
 &lt;p>For security, we use ssh key based authentication rather than password based.&lt;/p>
 &lt;p>If you&amp;rsquo;re running Linux or MacOS on your local computer, then you can find
 instructions for how to set up key based authentication here:
@@ -2473,7 +2473,7 @@ please feel free to reach out again if you run into trouble or are sshing in
 from a Windows machine, etc.&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/CKxR6ClKstU" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div></description></item><item><title>Docs: Upload Data to Lambda Cloud</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/upload-data-to-lambda-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/upload-data-to-lambda-cloud/</guid><description>
+&lt;/div></description></item><item><title>Docs: Upload Data to Lambda Cloud</title><link>/docs/getting-started/upload-data-to-lambda-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/getting-started/upload-data-to-lambda-cloud/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>There are multiple solutions for transferring your files to an instance. The
 easiest is probably to use scp:
@@ -2495,7 +2495,7 @@ instance, then you&amp;rsquo;ll need to provide the path for that to rsync as we
 can do that by adding -e &amp;ldquo;ssh -i /path/to/private/key&amp;rdquo;. In the full command,
 that would be:&lt;/p>
 &lt;p>rsync &amp;ndash;archive &amp;ndash;info=progress2 -e &amp;ldquo;ssh -i /path/to/private/key&amp;rdquo;
-my_local_dir/ ubuntu@instance-ip:foobar/&lt;/p></description></item><item><title>Docs: What Can Lambda Cloud Be Used For?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
+my_local_dir/ ubuntu@instance-ip:foobar/&lt;/p></description></item><item><title>Docs: What Can Lambda Cloud Be Used For?</title><link>/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>Yes. Anything that your could run from a computer sitting under your desk with
 the same specs as our instances (
