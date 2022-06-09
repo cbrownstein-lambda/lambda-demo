@@ -28,7 +28,7 @@ generate one in order to access your Lambda Cloud instance using SSH.
    key passphrase will be able to access your Lambda Cloud instance.
    {{% /alert %}}
 
-## Add your SSH public key to Lambda Cloud
+### Add your SSH public key to Lambda Cloud
 
 1. Run the following in the terminal to output your SSH public key:
 
