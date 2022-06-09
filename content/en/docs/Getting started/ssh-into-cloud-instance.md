@@ -7,14 +7,45 @@ date: 2022-06-09
 description: >
 ---
 
-For security, we use ssh key based authentication rather than password based.
- 
-If you're running Linux or MacOS on your local computer, then you can find
-instructions for how to set up key based authentication here:
-https://lambdalabs.com/service/lambda-gpu-cloud-faq
+## Using SSH in Linux and macOS
 
-It looks like the interface has changed a bit since that video was made, so
-please feel free to reach out again if you run into trouble or are sshing in
-from a Windows machine, etc.
+### Generate a SSH public-private key pair
 
-{{< youtube CKxR6ClKstU >}}
+If you do not already have a SSH public-private key pair, you will need to
+generate one in order to access your Lambda Cloud instance using SSH.
+
+1. In a terminal, run the following command and follow the prompts given to
+   you:
+
+       ssh-keygen
+
+   This command generates a SSH public-private key pair. By default, the
+   public key is stored in the file `~/.ssh/id_rsa.pub`, and the private key
+   is stored in the file `~/.ssh/id_rsa`.
+
+   {{% alert title="Warning" color="warning" %}}
+   Do not share the SSH private key. Anyone with the SSH private key and the
+   key passphrase will be able to access your Lambda Cloud instance.
+   {{% /alert %}}
+
+## Add your SSH public key to Lambda Cloud
+
+1. Run the following in the terminal to output your SSH public key:
+
+       cat ~/.ssh/id_rsa.pub
+
+   Alternatively, you can open `~/.ssh/id_rsa.pub` using a text editor.
+
+1. Copy the SSH public key to your clipboard.
+
+1. Log into your Lambda Cloud account.
+
+   In the left sidebar of the Lambda Cloud dashboard, click **SSH Keys**.
+
+1. Click **Add SSH key**.
+
+1. Paste your SSH public key into the box that says _Paste your public key
+   here_.
+
+   In the box that says _Title_, give your public key a name. For example, you
+   can use your name or the name of your computer.
