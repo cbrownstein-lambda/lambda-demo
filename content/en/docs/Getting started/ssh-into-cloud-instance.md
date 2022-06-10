@@ -49,3 +49,8 @@ generate one in order to access your Lambda Cloud instance using SSH.
 
    In the box that says _Title_, give your public key a name. For example, you
    can use your name or the name of your computer.
+
+1. Click **Add SSH key**.
+
+1. Launch a Lambda Cloud instance. Under the **Which SSH key should it use?**
+   dropdown menu, select the SSH key you added.
