@@ -51,9 +51,89 @@ can use your name or the name of your computer.&lt;/p>
 dropdown menu, select the SSH key you added.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="connect-to-your-lambda-cloud-instance">Connect to your Lambda Cloud instance&lt;/h2>
+&lt;h3 id="connect-to-your-lambda-cloud-instance">Connect to your Lambda Cloud instance&lt;/h3>
 &lt;p>In the instances dashboard, find the &lt;strong>SSH Login&lt;/strong> command for the instance
 you created. Run that command in a terminal.&lt;/p>
+&lt;p>You should now be connected to your instance using SSH.&lt;/p>
+&lt;h2 id="using-ssh-in-windows">Using SSH in Windows&lt;/h2>
+&lt;h3 id="generate-a-ssh-public-private-key-pair-1">Generate a SSH public-private key pair&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Download and install the
+&lt;a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">latest version of PuTTY&lt;/a>.
+PuTTY is a widely used SSH client for Windows.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+Be sure to download the &lt;strong>MSI (&amp;lsquo;Windows Installer&amp;rsquo;) 64-bit x86&lt;/strong>
+installer package.
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Open the newly installed &lt;strong>PuTTYgen&lt;/strong> application.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>Actions&lt;/strong> section, click &lt;strong>Generate&lt;/strong> to generate a public/private
+key pair.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Save private key&lt;/strong> and save your SSH private key to a file.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="add-your-ssh-public-key-to-lambda-cloud-1">Add your SSH public key to Lambda Cloud&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Log into your Lambda Cloud account.&lt;/p>
+&lt;p>In the left sidebar of the Lambda Cloud dashboard, click &lt;strong>SSH Keys&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In &lt;strong>PuTTYgen&lt;/strong>, copy to the clipboard the text that appears under the
+label &lt;strong>Public key for pasting into OpenSSH authorized_keys file&lt;/strong>. This
+text is your SSH public key.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paste your SSH public key into the box that says &lt;em>Paste your public key
+here&lt;/em>.&lt;/p>
+&lt;p>In the box that says &lt;em>Title&lt;/em>, give your public key a name. For example, you
+can use your name or the name of your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Launch a Lambda Cloud instance. Under the &lt;strong>Which SSH key should it use?&lt;/strong>
+dropdown menu, select the SSH key you added.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="connect-to-your-lambda-cloud-instance-1">Connect to your Lambda Cloud instance&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>In the Lambda Cloud instances dashboard, find the IP address for the
+instance you created.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open the &lt;strong>PuTTY&lt;/strong> application.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, under &lt;strong>Connection &amp;gt; SSH&lt;/strong>, select &lt;strong>Auth&lt;/strong>. In
+the &lt;strong>Authentication parameters&lt;/strong> section, click &lt;strong>Browse&amp;hellip;&lt;/strong> and choose
+the SSH private key you created.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, select &lt;strong>Session&lt;/strong>.&lt;/p>
+&lt;p>In the box labeled &lt;strong>Host Name (or IP address)&lt;/strong>, enter the IP address of
+your instance.&lt;/p>
+&lt;p>Click &lt;strong>Open&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When presented with the &lt;strong>PuTTY Security Alert&lt;/strong> dialog, click &lt;strong>Accept&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Login as &lt;code>ubuntu&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;p>You should now be connected to your instance using SSH.&lt;/p></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid><description>
 &lt;p>Common reasons why credit and debit card transactions are declined include:&lt;/p>
 &lt;h2 id="the-card-is-a-prepaid-card">The card is a prepaid card&lt;/h2>

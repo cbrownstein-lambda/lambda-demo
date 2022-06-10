@@ -155,9 +155,89 @@ can use your name or the name of your computer.</p>
 dropdown menu, select the SSH key you added.</p>
 </li>
 </ol>
-<h2 id=connect-to-your-lambda-cloud-instance>Connect to your Lambda Cloud instance</h2>
+<h3 id=connect-to-your-lambda-cloud-instance>Connect to your Lambda Cloud instance</h3>
 <p>In the instances dashboard, find the <strong>SSH Login</strong> command for the instance
 you created. Run that command in a terminal.</p>
+<p>You should now be connected to your instance using SSH.</p>
+<h2 id=using-ssh-in-windows>Using SSH in Windows</h2>
+<h3 id=generate-a-ssh-public-private-key-pair-1>Generate a SSH public-private key pair</h3>
+<ol>
+<li>
+<p>Download and install the
+<a href=https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>latest version of PuTTY</a>.
+PuTTY is a widely used SSH client for Windows.</p>
+<div class="alert alert-info" role=alert>
+<h4 class=alert-heading>Note</h4>
+Be sure to download the <strong>MSI (&lsquo;Windows Installer&rsquo;) 64-bit x86</strong>
+installer package.
+</div>
+</li>
+<li>
+<p>Open the newly installed <strong>PuTTYgen</strong> application.</p>
+</li>
+<li>
+<p>In the <strong>Actions</strong> section, click <strong>Generate</strong> to generate a public/private
+key pair.</p>
+</li>
+<li>
+<p>Click <strong>Save private key</strong> and save your SSH private key to a file.</p>
+</li>
+</ol>
+<h3 id=add-your-ssh-public-key-to-lambda-cloud-1>Add your SSH public key to Lambda Cloud</h3>
+<ol>
+<li>
+<p>Log into your Lambda Cloud account.</p>
+<p>In the left sidebar of the Lambda Cloud dashboard, click <strong>SSH Keys</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Add SSH key</strong>.</p>
+</li>
+<li>
+<p>In <strong>PuTTYgen</strong>, copy to the clipboard the text that appears under the
+label <strong>Public key for pasting into OpenSSH authorized_keys file</strong>. This
+text is your SSH public key.</p>
+</li>
+<li>
+<p>Paste your SSH public key into the box that says <em>Paste your public key
+here</em>.</p>
+<p>In the box that says <em>Title</em>, give your public key a name. For example, you
+can use your name or the name of your computer.</p>
+</li>
+<li>
+<p>Click <strong>Add SSH key</strong>.</p>
+</li>
+<li>
+<p>Launch a Lambda Cloud instance. Under the <strong>Which SSH key should it use?</strong>
+dropdown menu, select the SSH key you added.</p>
+</li>
+</ol>
+<h3 id=connect-to-your-lambda-cloud-instance-1>Connect to your Lambda Cloud instance</h3>
+<ol>
+<li>
+<p>In the Lambda Cloud instances dashboard, find the IP address for the
+instance you created.</p>
+</li>
+<li>
+<p>Open the <strong>PuTTY</strong> application.</p>
+</li>
+<li>
+<p>In the <strong>PuTTY</strong> sidebar, under <strong>Connection > SSH</strong>, select <strong>Auth</strong>. In
+the <strong>Authentication parameters</strong> section, click <strong>Browse&mldr;</strong> and choose
+the SSH private key you created.</p>
+</li>
+<li>
+<p>In the <strong>PuTTY</strong> sidebar, select <strong>Session</strong>.</p>
+<p>In the box labeled <strong>Host Name (or IP address)</strong>, enter the IP address of
+your instance.</p>
+<p>Click <strong>Open</strong>.</p>
+</li>
+<li>
+<p>When presented with the <strong>PuTTY Security Alert</strong> dialog, click <strong>Accept</strong>.</p>
+</li>
+<li>
+<p>Login as <code>ubuntu</code>.</p>
+</li>
+</ol>
 <p>You should now be connected to your instance using SSH.</p>
 </div>
 <div class=td-content style=page-break-before:always>

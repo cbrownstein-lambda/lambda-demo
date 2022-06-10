@@ -25,13 +25,13 @@ ssh-keygen  This command generates a SSH public-private key pair. By default, th
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/ssh-into-cloud-instance/"><meta property="article:section" content="docs">
 <meta property="article:published_time" content="2022-06-09T00:00:00+00:00">
-<meta property="article:modified_time" content="2022-06-10T08:56:13-07:00">
+<meta property="article:modified_time" content="2022-06-10T11:40:42-07:00">
 <meta itemprop=name content="Access Lambda Cloud instance using SSH">
 <meta itemprop=description content="Using SSH in Linux and macOS Generate a SSH public-private key pair If you do not already have a SSH public-private key pair, you will need to generate one in order to access your Lambda Cloud instance using SSH.
   In a terminal, run the following command and follow the prompts given to you:
 ssh-keygen  This command generates a SSH public-private key pair. By default, the public key is stored in the file ~/."><meta itemprop=datePublished content="2022-06-09T00:00:00+00:00">
-<meta itemprop=dateModified content="2022-06-10T08:56:13-07:00">
-<meta itemprop=wordCount content="272">
+<meta itemprop=dateModified content="2022-06-10T11:40:42-07:00">
+<meta itemprop=wordCount content="563">
 <meta itemprop=keywords content="test,sample,docs,"><meta name=twitter:card content="summary">
 <meta name=twitter:title content="Access Lambda Cloud instance using SSH">
 <meta name=twitter:description content="Using SSH in Linux and macOS Generate a SSH public-private key pair If you do not already have a SSH public-private key pair, you will need to generate one in order to access your Lambda Cloud instance using SSH.
@@ -135,9 +135,16 @@ ssh-keygen  This command generates a SSH public-private key pair. By default, th
 <ul>
 <li><a href=#generate-a-ssh-public-private-key-pair>Generate a SSH public-private key pair</a></li>
 <li><a href=#add-your-ssh-public-key-to-lambda-cloud>Add your SSH public key to Lambda Cloud</a></li>
+<li><a href=#connect-to-your-lambda-cloud-instance>Connect to your Lambda Cloud instance</a></li>
 </ul>
 </li>
-<li><a href=#connect-to-your-lambda-cloud-instance>Connect to your Lambda Cloud instance</a></li>
+<li><a href=#using-ssh-in-windows>Using SSH in Windows</a>
+<ul>
+<li><a href=#generate-a-ssh-public-private-key-pair-1>Generate a SSH public-private key pair</a></li>
+<li><a href=#add-your-ssh-public-key-to-lambda-cloud-1>Add your SSH public key to Lambda Cloud</a></li>
+<li><a href=#connect-to-your-lambda-cloud-instance-1>Connect to your Lambda Cloud instance</a></li>
+</ul>
+</li>
 </ul>
 </nav></div>
 </aside>
@@ -211,9 +218,89 @@ can use your name or the name of your computer.</p>
 dropdown menu, select the SSH key you added.</p>
 </li>
 </ol>
-<h2 id=connect-to-your-lambda-cloud-instance>Connect to your Lambda Cloud instance</h2>
+<h3 id=connect-to-your-lambda-cloud-instance>Connect to your Lambda Cloud instance</h3>
 <p>In the instances dashboard, find the <strong>SSH Login</strong> command for the instance
 you created. Run that command in a terminal.</p>
+<p>You should now be connected to your instance using SSH.</p>
+<h2 id=using-ssh-in-windows>Using SSH in Windows</h2>
+<h3 id=generate-a-ssh-public-private-key-pair-1>Generate a SSH public-private key pair</h3>
+<ol>
+<li>
+<p>Download and install the
+<a href=https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html>latest version of PuTTY</a>.
+PuTTY is a widely used SSH client for Windows.</p>
+<div class="alert alert-info" role=alert>
+<h4 class=alert-heading>Note</h4>
+Be sure to download the <strong>MSI (&lsquo;Windows Installer&rsquo;) 64-bit x86</strong>
+installer package.
+</div>
+</li>
+<li>
+<p>Open the newly installed <strong>PuTTYgen</strong> application.</p>
+</li>
+<li>
+<p>In the <strong>Actions</strong> section, click <strong>Generate</strong> to generate a public/private
+key pair.</p>
+</li>
+<li>
+<p>Click <strong>Save private key</strong> and save your SSH private key to a file.</p>
+</li>
+</ol>
+<h3 id=add-your-ssh-public-key-to-lambda-cloud-1>Add your SSH public key to Lambda Cloud</h3>
+<ol>
+<li>
+<p>Log into your Lambda Cloud account.</p>
+<p>In the left sidebar of the Lambda Cloud dashboard, click <strong>SSH Keys</strong>.</p>
+</li>
+<li>
+<p>Click <strong>Add SSH key</strong>.</p>
+</li>
+<li>
+<p>In <strong>PuTTYgen</strong>, copy to the clipboard the text that appears under the
+label <strong>Public key for pasting into OpenSSH authorized_keys file</strong>. This
+text is your SSH public key.</p>
+</li>
+<li>
+<p>Paste your SSH public key into the box that says <em>Paste your public key
+here</em>.</p>
+<p>In the box that says <em>Title</em>, give your public key a name. For example, you
+can use your name or the name of your computer.</p>
+</li>
+<li>
+<p>Click <strong>Add SSH key</strong>.</p>
+</li>
+<li>
+<p>Launch a Lambda Cloud instance. Under the <strong>Which SSH key should it use?</strong>
+dropdown menu, select the SSH key you added.</p>
+</li>
+</ol>
+<h3 id=connect-to-your-lambda-cloud-instance-1>Connect to your Lambda Cloud instance</h3>
+<ol>
+<li>
+<p>In the Lambda Cloud instances dashboard, find the IP address for the
+instance you created.</p>
+</li>
+<li>
+<p>Open the <strong>PuTTY</strong> application.</p>
+</li>
+<li>
+<p>In the <strong>PuTTY</strong> sidebar, under <strong>Connection > SSH</strong>, select <strong>Auth</strong>. In
+the <strong>Authentication parameters</strong> section, click <strong>Browse&mldr;</strong> and choose
+the SSH private key you created.</p>
+</li>
+<li>
+<p>In the <strong>PuTTY</strong> sidebar, select <strong>Session</strong>.</p>
+<p>In the box labeled <strong>Host Name (or IP address)</strong>, enter the IP address of
+your instance.</p>
+<p>Click <strong>Open</strong>.</p>
+</li>
+<li>
+<p>When presented with the <strong>PuTTY Security Alert</strong> dialog, click <strong>Accept</strong>.</p>
+</li>
+<li>
+<p>Login as <code>ubuntu</code>.</p>
+</li>
+</ol>
 <p>You should now be connected to your instance using SSH.</p>
 <style>.feedback--answer{display:inline-block}.feedback--answer-no{margin-left:1em}.feedback--response{display:none;margin-top:1em}.feedback--response__visible{display:block}</style>
 <div class=d-print-none>
@@ -231,7 +318,7 @@ Sorry to hear that. Please <a href=https://github.com/cbrownstein-lambda/lambda-
 <script>const yesButton=document.querySelector('.feedback--answer-yes'),noButton=document.querySelector('.feedback--answer-no'),yesResponse=document.querySelector('.feedback--response-yes'),noResponse=document.querySelector('.feedback--response-no'),disableButtons=()=>{yesButton.disabled=!0,noButton.disabled=!0},sendFeedback=b=>{if(typeof ga!='function')return;const a={command:'send',hitType:'event',category:'Helpful',action:'click',label:window.location.pathname,value:b};ga(a.command,a.hitType,a.category,a.action,a.label,a.value)};yesButton.addEventListener('click',()=>{yesResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(1)}),noButton.addEventListener('click',()=>{noResponse.classList.add('feedback--response__visible'),disableButtons(),sendFeedback(0)})</script>
 <br>
 <div class="text-muted mt-5 pt-3 border-top">
-Last modified June 10, 2022: <a href=https://github.com/cbrownstein-lambda/lambda-demo/commit/268747e9043edf57e2aae339b8e1b40989f7d7a1>Add instruction wrt. how to connect (268747e)</a>
+Last modified June 10, 2022: <a href=https://github.com/cbrownstein-lambda/lambda-demo/commit/38013202a734c191667088733188985606a188f8>Add Windows SSH instructions (3801320)</a>
 </div>
 </div>
 </main>
