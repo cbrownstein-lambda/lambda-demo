@@ -55,7 +55,7 @@ generate one in order to access your Lambda Cloud instance using SSH.
 1. Launch a Lambda Cloud instance. Under the **Which SSH key should it use?**
    dropdown menu, select the SSH key you added.
 
-## Connect to your Lambda Cloud instance
+### Connect to your Lambda Cloud instance
 
 In the instances dashboard, find the **SSH Login** command for the instance
 you created. Run that command in a terminal.
