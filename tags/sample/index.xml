@@ -43,6 +43,13 @@ here&lt;/em>.&lt;/p>
 &lt;p>In the box that says &lt;em>Title&lt;/em>, give your public key a name. For example, you
 can use your name or the name of your computer.&lt;/p>
 &lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Launch a Lambda Cloud instance. Under the &lt;strong>Which SSH key should it use?&lt;/strong>
+dropdown menu, select the SSH key you added.&lt;/p>
+&lt;/li>
 &lt;/ol></description></item><item><title>Docs: Example Page</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
