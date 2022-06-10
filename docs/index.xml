@@ -1943,7 +1943,11 @@ can use your name or the name of your computer.&lt;/p>
 &lt;p>Launch a Lambda Cloud instance. Under the &lt;strong>Which SSH key should it use?&lt;/strong>
 dropdown menu, select the SSH key you added.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid><description>
+&lt;/ol>
+&lt;h2 id="connect-to-your-lambda-cloud-instance">Connect to your Lambda Cloud instance&lt;/h2>
+&lt;p>In the instances dashboard, find the &lt;strong>SSH Login&lt;/strong> command for the instance
+you created. Run that command in a terminal.&lt;/p>
+&lt;p>You should now be connected to your instance using SSH.&lt;/p></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid><description>
 &lt;p>Common reasons why credit and debit card transactions are declined include:&lt;/p>
 &lt;h2 id="the-card-is-a-prepaid-card">The card is a prepaid card&lt;/h2>
 &lt;p>We don&amp;rsquo;t accept prepaid cards. We only accept major credit and debit cards.&lt;/p>

@@ -50,7 +50,11 @@ can use your name or the name of your computer.&lt;/p>
 &lt;p>Launch a Lambda Cloud instance. Under the &lt;strong>Which SSH key should it use?&lt;/strong>
 dropdown menu, select the SSH key you added.&lt;/p>
 &lt;/li>
-&lt;/ol></description></item><item><title>Docs: Example Page</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</guid><description>
+&lt;/ol>
+&lt;h2 id="connect-to-your-lambda-cloud-instance">Connect to your Lambda Cloud instance&lt;/h2>
+&lt;p>In the instances dashboard, find the &lt;strong>SSH Login&lt;/strong> command for the instance
+you created. Run that command in a terminal.&lt;/p>
+&lt;p>You should now be connected to your instance using SSH.&lt;/p></description></item><item><title>Docs: Example Page</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/example-page/</guid><description>
 &lt;div class="pageinfo pageinfo-primary">
 &lt;p>This is a placeholder page. Replace it with your own content.&lt;/p>
 &lt;/div>
