@@ -122,6 +122,7 @@ instance you created.&lt;/p>
 &lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, under &lt;strong>Connection &amp;gt; SSH&lt;/strong>, select &lt;strong>Auth&lt;/strong>. In
 the &lt;strong>Authentication parameters&lt;/strong> section, click &lt;strong>Browse&amp;hellip;&lt;/strong> and choose
 the SSH private key you created.&lt;/p>
+&lt;p>&lt;img src="https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/ssh-into-cloud-instance/images/putty-choose-private-key.png" alt="Screenshot showing how to choose private key in PuTTY">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, select &lt;strong>Session&lt;/strong>.&lt;/p>
