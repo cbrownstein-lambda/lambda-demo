@@ -1,1 +1,16 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – Goldydocs</title><link>https://cbrownstein-lambda.github.io/lambda-demo/</link><description>Recent content in Goldydocs on Lambda demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda demo – Goldydocs</title>
+    <link>https://cbrownstein-lambda.github.io/lambda-demo/</link>
+    <description>Recent content in Goldydocs on Lambda demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+      
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,65 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lambda demo – Billing</title>
+    <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/</link>
+    <description>Recent content in Billing on Lambda demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	  <atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Docs: Trouble paying with credit or debit card</title>
+      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link>
+      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid>
+      <description>
+        
+        
+        &lt;p&gt;Common reasons why credit and debit card transactions are declined include:&lt;/p&gt;
+&lt;h2 id=&#34;the-card-is-a-prepaid-card&#34;&gt;The card is a prepaid card&lt;/h2&gt;
+&lt;p&gt;We don&amp;rsquo;t accept prepaid cards. We only accept major credit and debit cards.&lt;/p&gt;
+&lt;h2 id=&#34;the-purchase-is-being-made-from-a-country-we-dont-support&#34;&gt;The purchase is being made from a country we don&amp;rsquo;t support&lt;/h2&gt;
+&lt;p&gt;We currently only support customers in the following countries:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;United States&lt;/li&gt;
+&lt;li&gt;Canada&lt;/li&gt;
+&lt;li&gt;Chile&lt;/li&gt;
+&lt;li&gt;Iceland&lt;/li&gt;
+&lt;li&gt;United Arab Emirates&lt;/li&gt;
+&lt;li&gt;Saudi Arabia&lt;/li&gt;
+&lt;li&gt;South Africa&lt;/li&gt;
+&lt;li&gt;Israel&lt;/li&gt;
+&lt;li&gt;Taiwan&lt;/li&gt;
+&lt;li&gt;Republic of Korea&lt;/li&gt;
+&lt;li&gt;Japan&lt;/li&gt;
+&lt;li&gt;Singapore&lt;/li&gt;
+&lt;li&gt;Australia&lt;/li&gt;
+&lt;li&gt;New Zealand&lt;/li&gt;
+&lt;li&gt;United Kingdom&lt;/li&gt;
+&lt;li&gt;Switzerland&lt;/li&gt;
+&lt;li&gt;European Union&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-purchase-is-being-made-using-a-vpn&#34;&gt;The purchase is being made using a VPN&lt;/h2&gt;
+&lt;p&gt;Purchases made while using a VPN are flagged as suspicious.&lt;/p&gt;
+&lt;h2 id=&#34;the-card-issuer-is-denying-our-pre-authorization-charge&#34;&gt;The card issuer is denying our pre-authorization charge&lt;/h2&gt;
+&lt;p&gt;We make a &lt;a href=&#34;https://cbrownstein-lambda.github.io/lambda-demo/lambda-demo/docs/faqs/why-was-i-charged-10-dollars/&#34;&gt;$10 pre-authorization charge&lt;/a&gt; to a card before accepting it for
+payment, similar to how gas stations and hotels do. If the card issuer denies
+the pre-authorization charge, then we cannot accept the card for payment.&lt;/p&gt;
+&lt;h2 id=&#34;wrong-cvv-or-zip-code-being-entered&#34;&gt;Wrong CVV or ZIP Code being entered&lt;/h2&gt;
+&lt;p&gt;Card purchases won&amp;rsquo;t go through if the CVV (security) is entered incorrectly.
+Also, card purchases will be denied if the ZIP Code does not match with the
+card billing address.&lt;/p&gt;
+&lt;p&gt;If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

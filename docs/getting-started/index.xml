@@ -1,32 +1,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lambda demo – Documentation</title>
-    <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/</link>
-    <description>Recent content in Documentation on Lambda demo</description>
+    <title>Lambda demo – Getting Started</title>
+    <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/</link>
+    <description>Recent content in Getting Started on Lambda demo</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	  <atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
       
         
       
     
-    
-    <item>
-      <title>Docs: How do I change my password?</title>
-      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/how-do-i-change-my-password/</link>
-      <pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/how-do-i-change-my-password/</guid>
-      <description>
-        
-        
-        &lt;p&gt;To reset your Lambda Cloud password, visit the
-&lt;a href=&#34;https://lambdalabs.com/cloud/password-reset&#34;&gt;&lt;strong&gt;Reset Password&lt;/strong&gt;&lt;/a&gt; page.&lt;/p&gt;
-
-      </description>
-    </item>
     
     <item>
       <title>Docs: Access Lambda Cloud instance using SSH</title>
@@ -184,155 +169,6 @@ your instance.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;You should now be connected to your instance using SSH.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Trouble paying with credit or debit card</title>
-      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link>
-      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Common reasons why credit and debit card transactions are declined include:&lt;/p&gt;
-&lt;h2 id=&#34;the-card-is-a-prepaid-card&#34;&gt;The card is a prepaid card&lt;/h2&gt;
-&lt;p&gt;We don&amp;rsquo;t accept prepaid cards. We only accept major credit and debit cards.&lt;/p&gt;
-&lt;h2 id=&#34;the-purchase-is-being-made-from-a-country-we-dont-support&#34;&gt;The purchase is being made from a country we don&amp;rsquo;t support&lt;/h2&gt;
-&lt;p&gt;We currently only support customers in the following countries:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;United States&lt;/li&gt;
-&lt;li&gt;Canada&lt;/li&gt;
-&lt;li&gt;Chile&lt;/li&gt;
-&lt;li&gt;Iceland&lt;/li&gt;
-&lt;li&gt;United Arab Emirates&lt;/li&gt;
-&lt;li&gt;Saudi Arabia&lt;/li&gt;
-&lt;li&gt;South Africa&lt;/li&gt;
-&lt;li&gt;Israel&lt;/li&gt;
-&lt;li&gt;Taiwan&lt;/li&gt;
-&lt;li&gt;Republic of Korea&lt;/li&gt;
-&lt;li&gt;Japan&lt;/li&gt;
-&lt;li&gt;Singapore&lt;/li&gt;
-&lt;li&gt;Australia&lt;/li&gt;
-&lt;li&gt;New Zealand&lt;/li&gt;
-&lt;li&gt;United Kingdom&lt;/li&gt;
-&lt;li&gt;Switzerland&lt;/li&gt;
-&lt;li&gt;European Union&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;the-purchase-is-being-made-using-a-vpn&#34;&gt;The purchase is being made using a VPN&lt;/h2&gt;
-&lt;p&gt;Purchases made while using a VPN are flagged as suspicious.&lt;/p&gt;
-&lt;h2 id=&#34;the-card-issuer-is-denying-our-pre-authorization-charge&#34;&gt;The card issuer is denying our pre-authorization charge&lt;/h2&gt;
-&lt;p&gt;We make a &lt;a href=&#34;https://cbrownstein-lambda.github.io/lambda-demo/lambda-demo/docs/faqs/why-was-i-charged-10-dollars/&#34;&gt;$10 pre-authorization charge&lt;/a&gt; to a card before accepting it for
-payment, similar to how gas stations and hotels do. If the card issuer denies
-the pre-authorization charge, then we cannot accept the card for payment.&lt;/p&gt;
-&lt;h2 id=&#34;wrong-cvv-or-zip-code-being-entered&#34;&gt;Wrong CVV or ZIP Code being entered&lt;/h2&gt;
-&lt;p&gt;Card purchases won&amp;rsquo;t go through if the CVV (security) is entered incorrectly.
-Also, card purchases will be denied if the ZIP Code does not match with the
-card billing address.&lt;/p&gt;
-&lt;p&gt;If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: What can Lambda Cloud be used for?</title>
-      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link>
-      <pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Hi,&lt;/p&gt;
-&lt;p&gt;Yes. Anything that your could run from a computer sitting under your desk with
-the same specs as our instances (
-&lt;a href=&#34;https://lambdalabs.com/service/gpu-cloud/pricing&#34;&gt;https://lambdalabs.com/service/gpu-cloud/pricing&lt;/a&gt; ), you can run on our cloud
-instances. (With the caveat that our instances are headless, so imagine that
-you have a desktop under your desk that you can ssh into / use JupyterLab with
-but no monitor).&lt;/p&gt;
-&lt;p&gt;Also, with the specifications of our instances, there are very few machine
-learning workloads that cannot be run. (Generally ML workloads are limited by
-Video RAM, and one 48 GiB VRAM A6000 is already a fairly large amount of
-VRAM.)&lt;/p&gt;
-&lt;p&gt;Our instances start with Ubuntu 20.04 LTS + Lambda Stack, which gets you a lot
-of the way toward running any ML workload, but you will often need to install
-additional dependencies following the documentation provided from the
-project.nvi&lt;/p&gt;
-&lt;p&gt;Where X is Google Colab or another machine learning cloud: Yes. All of our
-instances come with a JupyterLabs WebIDE, and while Colab notebooks may need
-some small tweaks to run on Lambda Cloud, I&amp;rsquo;m happy to help with that if
-needed.&lt;/p&gt;
-&lt;p&gt;Where X involves inference or otherwise using a Lambda instances as part of
-the back end of a customer facing website: Hi,&lt;/p&gt;
-&lt;p&gt;The short answer is yes, you can use our cloud for hosting. However, we
-currently do not offer any guarantees around bandwidth and uptime. With that
-said, our cloud is reliable and may be good enough depending on your specific
-needs. We would need to do some due diligence and understand your
-requirements. I&amp;rsquo;ll have someone reach out to you to learn more and decide if
-there is a mutual fit.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Can I mine crypto?</title>
-      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid>
-      <description>
-        
-        
-        &lt;p&gt;No.&lt;/p&gt;
-&lt;p&gt;Crypto mining is explicitly forbidden on our platform. Any attempt to do so
-anyway may lead to a permanent ban from our services.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Do you offer free trials?</title>
-      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid>
-      <description>
-        
-        
-        &lt;p&gt;We do sometimes offer signup credits to professors, researchers, and students
-but unfortunately we cannot at this time.&lt;/p&gt;
-&lt;p&gt;We have more demand than available GPUs for our existing customers.&lt;/p&gt;
-&lt;p&gt;Please check back in later, say a month or so from now, though. (Be sure to
-sign up and contact us from your school provided email address)&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Docs: Is Lambda Cloud Like AWS Cloud?</title>
-      <link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</link>
-      <pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</guid>
-      <description>
-        
-        
-        &lt;p&gt;Hi,&lt;/p&gt;
-&lt;p&gt;Lambda Cloud is not really the same type of service as AWS Lambda (While AWS
-Lambda is named that because it&amp;rsquo;s like running functions rather than
-persistent services, &amp;ldquo;Lambda Cloud&amp;rdquo; is named that because it&amp;rsquo;s a part of
-&lt;a href=&#34;https://lambdalabs.com&#34;&gt;https://lambdalabs.com&lt;/a&gt; , a company started by functional programming
-enthusiasts in 2012).&lt;/p&gt;
-&lt;p&gt;Most of our users are looking for instances to train ML models, which takes
-days to weeks and isn&amp;rsquo;t concerned with latency or boot times. Most of our
-instances take a few minutes to boot, and we don&amp;rsquo;t have a public API for
-spinning up instances on demand.&lt;/p&gt;
-&lt;p&gt;You certainly can do inference in our cloud, but to be perfectly honest I
-don&amp;rsquo;t think it will be a good fit for you (currently).&lt;/p&gt;
-&lt;p&gt;I hope that answers your question, and please reach out if you have any
-further questions.&lt;/p&gt;
 
       </description>
     </item>
