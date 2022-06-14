@@ -1,6 +1,6 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – Documentation</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/</link><description>Recent content in Documentation on Lambda demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How do I change my password?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/how-do-i-change-my-password/</link><pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/how-do-i-change-my-password/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – Documentation</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/</link><description>Recent content in Documentation on Lambda demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: How do I change my password?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/how-do-i-change-my-password/</link><pubDate>Mon, 13 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/how-do-i-change-my-password/</guid><description>
 &lt;p>To reset your Lambda Cloud password, visit the
-&lt;a href="https://lambdalabs.com/cloud/password-reset">&lt;strong>Reset Password&lt;/strong>&lt;/a> page.&lt;/p></description></item><item><title>Docs: Access Lambda Cloud instance using SSH</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/ssh-into-cloud-instance/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/ssh-into-cloud-instance/</guid><description>
+&lt;a href="https://lambdalabs.com/cloud/password-reset">&lt;strong>Reset Password&lt;/strong>&lt;/a> page.&lt;/p></description></item><item><title>Docs: Access Lambda Cloud instance using SSH</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/</guid><description>
 &lt;h2 id="using-ssh-in-linux-and-macos">Using SSH in Linux and macOS&lt;/h2>
 &lt;h3 id="generate-a-ssh-public-private-key-pair">Generate a SSH public-private key pair&lt;/h3>
 &lt;p>If you do not already have a SSH public-private key pair, you will need to
@@ -122,7 +122,7 @@ instance you created.&lt;/p>
 &lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, under &lt;strong>Connection &amp;gt; SSH&lt;/strong>, select &lt;strong>Auth&lt;/strong>. In
 the &lt;strong>Authentication parameters&lt;/strong> section, click &lt;strong>Browse&amp;hellip;&lt;/strong> and choose
 the SSH private key you created.&lt;/p>
-&lt;p>&lt;img src="https://cbrownstein-lambda.github.io/lambda-demo/lambda-demo/docs/getting-started/ssh-into-cloud-instance/putty-choose-private-key.png" alt="Screenshot showing how to choose private key in PuTTY">&lt;/p>
+&lt;p>&lt;img src="https://cbrownstein-lambda.github.io/lambda-demo/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/putty-choose-private-key.png" alt="Screenshot showing how to choose private key in PuTTY">&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, select &lt;strong>Session&lt;/strong>.&lt;/p>
@@ -137,7 +137,7 @@ your instance.&lt;/p>
 &lt;p>Login as &lt;code>ubuntu&lt;/code>.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>You should now be connected to your instance using SSH.&lt;/p></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/billing/problem-processing-payment-method/</guid><description>
+&lt;p>You should now be connected to your instance using SSH.&lt;/p></description></item><item><title>Docs: Trouble paying with credit or debit card</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/billing/problem-processing-payment-method/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/billing/problem-processing-payment-method/</guid><description>
 &lt;p>Common reasons why credit and debit card transactions are declined include:&lt;/p>
 &lt;h2 id="the-card-is-a-prepaid-card">The card is a prepaid card&lt;/h2>
 &lt;p>We don&amp;rsquo;t accept prepaid cards. We only accept major credit and debit cards.&lt;/p>
@@ -172,7 +172,7 @@ the pre-authorization charge, then we cannot accept the card for payment.&lt;/p>
 &lt;p>Card purchases won&amp;rsquo;t go through if the CVV (security) is entered incorrectly.
 Also, card purchases will be denied if the ZIP Code does not match with the
 card billing address.&lt;/p>
-&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: What can Lambda Cloud be used for?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
+&lt;p>If none of these are applicable to you, contact our SUPPORT TEAM for help.&lt;/p></description></item><item><title>Docs: What can Lambda Cloud be used for?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/what-can-lambda-cloud-be-used-for/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/what-can-lambda-cloud-be-used-for/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>Yes. Anything that your could run from a computer sitting under your desk with
 the same specs as our instances (
@@ -199,15 +199,15 @@ currently do not offer any guarantees around bandwidth and uptime. With that
 said, our cloud is reliable and may be good enough depending on your specific
 needs. We would need to do some due diligence and understand your
 requirements. I&amp;rsquo;ll have someone reach out to you to learn more and decide if
-there is a mutual fit.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/can-i-mine-crypto/</guid><description>
+there is a mutual fit.&lt;/p></description></item><item><title>Docs: Can I mine crypto?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/can-i-mine-crypto/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/can-i-mine-crypto/</guid><description>
 &lt;p>No.&lt;/p>
 &lt;p>Crypto mining is explicitly forbidden on our platform. Any attempt to do so
-anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/do-you-offer-free-trials/</guid><description>
+anyway may lead to a permanent ban from our services.&lt;/p></description></item><item><title>Docs: Do you offer free trials?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/do-you-offer-free-trials/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/do-you-offer-free-trials/</guid><description>
 &lt;p>We do sometimes offer signup credits to professors, researchers, and students
 but unfortunately we cannot at this time.&lt;/p>
 &lt;p>We have more demand than available GPUs for our existing customers.&lt;/p>
 &lt;p>Please check back in later, say a month or so from now, though. (Be sure to
-sign up and contact us from your school provided email address)&lt;/p></description></item><item><title>Docs: Is Lambda Cloud Like AWS Cloud?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/faqs/is-lambda-cloud-like-aws-cloud/</guid><description>
+sign up and contact us from your school provided email address)&lt;/p></description></item><item><title>Docs: Is Lambda Cloud Like AWS Cloud?</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/is-lambda-cloud-like-aws-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/faqs/is-lambda-cloud-like-aws-cloud/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>Lambda Cloud is not really the same type of service as AWS Lambda (While AWS
 Lambda is named that because it&amp;rsquo;s like running functions rather than
@@ -221,7 +221,7 @@ spinning up instances on demand.&lt;/p>
 &lt;p>You certainly can do inference in our cloud, but to be perfectly honest I
 don&amp;rsquo;t think it will be a good fit for you (currently).&lt;/p>
 &lt;p>I hope that answers your question, and please reach out if you have any
-further questions.&lt;/p></description></item><item><title>Docs: Upload Data to Lambda Cloud</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/upload-data-to-lambda-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/getting-started/upload-data-to-lambda-cloud/</guid><description>
+further questions.&lt;/p></description></item><item><title>Docs: Upload Data to Lambda Cloud</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/upload-data-to-lambda-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/upload-data-to-lambda-cloud/</guid><description>
 &lt;p>Hi,&lt;/p>
 &lt;p>There are multiple solutions for transferring your files to an instance. The
 easiest is probably to use scp:

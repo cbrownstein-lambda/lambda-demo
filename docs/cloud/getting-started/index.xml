@@ -1,0 +1,160 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lambda demo – Getting Started</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/</link><description>Recent content in Getting Started on Lambda demo</description><generator>Hugo -- gohugo.io</generator><atom:link href="https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Access Lambda Cloud instance using SSH</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/</link><pubDate>Thu, 09 Jun 2022 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/</guid><description>
+&lt;h2 id="using-ssh-in-linux-and-macos">Using SSH in Linux and macOS&lt;/h2>
+&lt;h3 id="generate-a-ssh-public-private-key-pair">Generate a SSH public-private key pair&lt;/h3>
+&lt;p>If you do not already have a SSH public-private key pair, you will need to
+generate one in order to access your Lambda Cloud instance using SSH.&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>In a terminal, run the following command and follow the prompts given to
+you:&lt;/p>
+&lt;pre>&lt;code>ssh-keygen
+&lt;/code>&lt;/pre>
+&lt;p>This command generates a SSH public-private key pair. By default, the
+public key is stored in the file &lt;code>~/.ssh/id_rsa.pub&lt;/code>, and the private key
+is stored in the file &lt;code>~/.ssh/id_rsa&lt;/code>.&lt;/p>
+&lt;div class="alert alert-warning" role="alert">
+&lt;h4 class="alert-heading">Warning&lt;/h4>
+Do not share the SSH private key. Anyone with the SSH private key and the
+key passphrase will be able to access your Lambda Cloud instance.
+&lt;/div>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="add-your-ssh-public-key-to-lambda-cloud">Add your SSH public key to Lambda Cloud&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Run the following in the terminal to output your SSH public key:&lt;/p>
+&lt;pre>&lt;code>cat ~/.ssh/id_rsa.pub
+&lt;/code>&lt;/pre>
+&lt;p>Alternatively, you can open &lt;code>~/.ssh/id_rsa.pub&lt;/code> using a text editor.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Copy the SSH public key to your clipboard.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Log into your Lambda Cloud account.&lt;/p>
+&lt;p>In the left sidebar of the Lambda Cloud dashboard, click &lt;strong>SSH Keys&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paste your SSH public key into the box that says &lt;em>Paste your public key
+here&lt;/em>.&lt;/p>
+&lt;p>In the box that says &lt;em>Title&lt;/em>, give your public key a name. For example, you
+can use your name or the name of your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Launch a Lambda Cloud instance. Under the &lt;strong>Which SSH key should it use?&lt;/strong>
+dropdown menu, select the SSH key you added.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="connect-to-your-lambda-cloud-instance">Connect to your Lambda Cloud instance&lt;/h3>
+&lt;p>In the instances dashboard, find the &lt;strong>SSH Login&lt;/strong> command for the instance
+you created. Run that command in a terminal.&lt;/p>
+&lt;p>You should now be connected to your instance using SSH.&lt;/p>
+&lt;h2 id="using-ssh-in-windows">Using SSH in Windows&lt;/h2>
+&lt;h3 id="generate-a-ssh-public-private-key-pair-1">Generate a SSH public-private key pair&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Download and install the
+&lt;a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">latest version of PuTTY&lt;/a>.
+PuTTY is a widely used SSH client for Windows.&lt;/p>
+&lt;div class="alert alert-info" role="alert">
+&lt;h4 class="alert-heading">Note&lt;/h4>
+Be sure to download the &lt;strong>MSI (&amp;lsquo;Windows Installer&amp;rsquo;) 64-bit x86&lt;/strong>
+installer package.
+&lt;/div>
+&lt;/li>
+&lt;li>
+&lt;p>Open the newly installed &lt;strong>PuTTYgen&lt;/strong> application.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>Actions&lt;/strong> section, click &lt;strong>Generate&lt;/strong> to generate a public/private
+key pair.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Save private key&lt;/strong> and save your SSH private key to a file.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="add-your-ssh-public-key-to-lambda-cloud-1">Add your SSH public key to Lambda Cloud&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>Log into your Lambda Cloud account.&lt;/p>
+&lt;p>In the left sidebar of the Lambda Cloud dashboard, click &lt;strong>SSH Keys&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In &lt;strong>PuTTYgen&lt;/strong>, copy to the clipboard the text that appears under the
+label &lt;strong>Public key for pasting into OpenSSH authorized_keys file&lt;/strong>. This
+text is your SSH public key.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Paste your SSH public key into the box that says &lt;em>Paste your public key
+here&lt;/em>.&lt;/p>
+&lt;p>In the box that says &lt;em>Title&lt;/em>, give your public key a name. For example, you
+can use your name or the name of your computer.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Click &lt;strong>Add SSH key&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Launch a Lambda Cloud instance. Under the &lt;strong>Which SSH key should it use?&lt;/strong>
+dropdown menu, select the SSH key you added.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="connect-to-your-lambda-cloud-instance-1">Connect to your Lambda Cloud instance&lt;/h3>
+&lt;ol>
+&lt;li>
+&lt;p>In the Lambda Cloud instances dashboard, find the IP address for the
+instance you created.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Open the &lt;strong>PuTTY&lt;/strong> application.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, under &lt;strong>Connection &amp;gt; SSH&lt;/strong>, select &lt;strong>Auth&lt;/strong>. In
+the &lt;strong>Authentication parameters&lt;/strong> section, click &lt;strong>Browse&amp;hellip;&lt;/strong> and choose
+the SSH private key you created.&lt;/p>
+&lt;p>&lt;img src="https://cbrownstein-lambda.github.io/lambda-demo/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/putty-choose-private-key.png" alt="Screenshot showing how to choose private key in PuTTY">&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>In the &lt;strong>PuTTY&lt;/strong> sidebar, select &lt;strong>Session&lt;/strong>.&lt;/p>
+&lt;p>In the box labeled &lt;strong>Host Name (or IP address)&lt;/strong>, enter the IP address of
+your instance.&lt;/p>
+&lt;p>Click &lt;strong>Open&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>When presented with the &lt;strong>PuTTY Security Alert&lt;/strong> dialog, click &lt;strong>Accept&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Login as &lt;code>ubuntu&lt;/code>.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>You should now be connected to your instance using SSH.&lt;/p></description></item><item><title>Docs: Upload Data to Lambda Cloud</title><link>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/upload-data-to-lambda-cloud/</link><pubDate>Thu, 05 Jan 2017 00:00:00 +0000</pubDate><guid>https://cbrownstein-lambda.github.io/lambda-demo/docs/cloud/getting-started/upload-data-to-lambda-cloud/</guid><description>
+&lt;p>Hi,&lt;/p>
+&lt;p>There are multiple solutions for transferring your files to an instance. The
+easiest is probably to use scp:
+&lt;a href="https://lambdalabs.com/blog/downloading-data-sets-lambda-cloud/">https://lambdalabs.com/blog/downloading-data-sets-lambda-cloud/&lt;/a>&lt;/p>
+&lt;p>I personally like using rsync:&lt;/p>
+&lt;p>A good example command would be: rsync &amp;ndash;archive &amp;ndash;info=progress2
+my_local_dir/ ubuntu@instance-ip:destination/ &amp;ndash;archive tells rsync to copy
+directories recursively and try to preserve permissions / modification times,
+etc as much as possible. &amp;ndash;info=progress2 tells rsync to show the overall
+progress of the transfer as it goes. &amp;ldquo;destination/&amp;rdquo; is relative to
+/home/ubuntu/ on the instance, and for large transfers you probably want to
+transfer into one of our cloud filesystems to avoid needing to rsync again for
+future instances. If your filesystem is named &amp;ldquo;foobar&amp;rdquo; then if you attach it
+to an instance it will be available at /home/ubuntu/foobar/. To copy into it
+you could do: rsync &amp;ndash;archive &amp;ndash;info=progress2 my_local_dir/
+ubuntu@instance-ip:foobar/&lt;/p>
+&lt;p>If you us a private key other than ~/.ssh/id_rsa when you ssh into your
+instance, then you&amp;rsquo;ll need to provide the path for that to rsync as well. You
+can do that by adding -e &amp;ldquo;ssh -i /path/to/private/key&amp;rdquo;. In the full command,
+that would be:&lt;/p>
+&lt;p>rsync &amp;ndash;archive &amp;ndash;info=progress2 -e &amp;ldquo;ssh -i /path/to/private/key&amp;rdquo;
+my_local_dir/ ubuntu@instance-ip:foobar/&lt;/p></description></item></channel></rss>
