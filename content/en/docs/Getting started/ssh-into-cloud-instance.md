@@ -116,6 +116,8 @@ You should now be connected to your instance using SSH.
    the **Authentication parameters** section, click **Browse...** and choose
    the SSH private key you created.
 
+   ![Screenshot showing how to choose private key in PuTTY](/docs/getting-started/ssh-into-cloud-instance/images/putty-choose-private-key.png)
+
 1. In the **PuTTY** sidebar, select **Session**.
 
    In the box labeled **Host Name (or IP address)**, enter the IP address of
