@@ -116,7 +116,7 @@ You should now be connected to your instance using SSH.
    the **Authentication parameters** section, click **Browse...** and choose
    the SSH private key you created.
 
-   ![Screenshot showing how to choose private key in PuTTY](/docs/getting-started/ssh-into-cloud-instance/images/putty-choose-private-key.png)
+   ![Screenshot showing how to choose private key in PuTTY](/lambda-demo/docs/cloud/getting-started/ssh-into-cloud-instance/putty-choose-private-key.png)
 
 1. In the **PuTTY** sidebar, select **Session**.
 
